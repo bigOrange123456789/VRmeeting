@@ -1,0 +1,594 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": true,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"item_id": 1598262538999,
+		"project": 1598262538999,
+		"name": "project",
+		"useKeyboard": true,
+		"useMouse": true,
+		"useTouch": true,
+		"useGamepads": false,
+		"i18nAssets": [],
+		"layers": {
+			"0": {
+				"name": "Default",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "TransparentFX",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Ignore Raycast",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "3",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "Water",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			},
+			"5": {
+				"name": "UI",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"6": {
+				"name": "6",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"7": {
+				"name": "7",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			}
+		}
+	},
+	"scenes": [
+		{
+			"name": "newScene",
+			"url": "1598262539003.json"
+		}
+	],
+	"assets": {
+		"1598262549475": {
+			"id": 1598262549475,
+			"name": "skybox",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598262571842": {
+			"id": 1598262571842,
+			"name": "script",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598264453778": {
+			"id": 1598264453778,
+			"name": "posy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posy.jpg",
+				"size": 540436,
+				"hash": "7de5d790e5f311ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598264453778/posy.jpg"
+			},
+			"region": ""
+		},
+		"1598264453790": {
+			"id": 1598264453790,
+			"name": "posz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posz.jpg",
+				"size": 866681,
+				"hash": "7dfb8270e5f311ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598264453790/posz.jpg"
+			},
+			"region": ""
+		},
+		"1598264453794": {
+			"id": 1598264453794,
+			"name": "posx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posx.jpg",
+				"size": 814015,
+				"hash": "7dfd3020e5f311ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598264453794/posx.jpg"
+			},
+			"region": ""
+		},
+		"1598264453784": {
+			"id": 1598264453784,
+			"name": "negx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negx.jpg",
+				"size": 933696,
+				"hash": "7dfe4190e5f311ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598264453784/negx.jpg"
+			},
+			"region": ""
+		},
+		"1598264453781": {
+			"id": 1598264453781,
+			"name": "negz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negz.jpg",
+				"size": 891860,
+				"hash": "7e02ae60e5f311ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598264453781/negz.jpg"
+			},
+			"region": ""
+		},
+		"1598264453787": {
+			"id": 1598264453787,
+			"name": "negy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negy.jpg",
+				"size": 1102047,
+				"hash": "7e023930e5f311ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598264453787/negy.jpg"
+			},
+			"region": ""
+		},
+		"1598264460358": {
+			"id": 1598264460358,
+			"name": "新建天空盒",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"textures": [
+					1598264453781,
+					1598264453794,
+					1598264453778,
+					1598264453787,
+					1598264453781,
+					1598264453784
+				],
+				"magFilter": 1,
+				"minFilter": 5,
+				"anisotropy": 1,
+				"name": ""
+			},
+			"type": "cubemap",
+			"file": null,
+			"region": ""
+		},
+		"1598318255934": {
+			"id": 1598318255934,
+			"name": "3.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 86,
+				"meshInstances": 0,
+				"nodes": 86,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "3.glb",
+				"size": 66472376,
+				"path": "files/1598262538999/assets/1598318255934/3.glb"
+			},
+			"region": ""
+		},
+		"1598318374788": {
+			"id": 1598318374788,
+			"name": "Freeman2.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 43,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Freeman2.glb",
+				"size": 5468796,
+				"path": "files/1598262538999/assets/1598318374788/Freeman2.glb"
+			},
+			"region": ""
+		},
+		"1598318789938": {
+			"id": 1598318789938,
+			"name": "playerControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"playerControl": {
+						"attributesOrder": [
+							"speed",
+							"directionY_Ref"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": 1
+							},
+							"directionY_Ref": {
+								"title": "directionY_Ref",
+								"type": "entity",
+								"description": "directionY_Ref"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "playerControl.js",
+				"size": 5325,
+				"hash": "26020bf0e67211ea84ed877dbd01025c",
+				"path": "files/1598262538999/assets/1598318789938/playerControl.js"
+			},
+			"region": ""
+		},
+		"1598436449752": {
+			"id": 1598436449752,
+			"name": "Chair825.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Chair825.glb",
+				"size": 811576,
+				"path": "files/1598262538999/assets/1598436449752/Chair825.glb"
+			},
+			"region": ""
+		},
+		"1598492136023": {
+			"id": 1598492136023,
+			"name": "sceneSet.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"sceneSet": {
+						"attributesOrder": [
+							"chair",
+							"screen"
+						],
+						"attributes": {
+							"chair": {
+								"title": "chair",
+								"type": "asset"
+							},
+							"screen": {
+								"title": "screen",
+								"type": "entity"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "sceneSet.js",
+				"size": 2762,
+				"hash": "7a1ead20e80611eab4b519d704a27a03",
+				"path": "files/1598262538999/assets/1598492136023/sceneSet.js"
+			},
+			"region": ""
+		}
+	}
+}

@@ -1,0 +1,1194 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": true,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"item_id": 1598943442725,
+		"project": 1598943442725,
+		"name": "project",
+		"useKeyboard": true,
+		"useMouse": true,
+		"useTouch": true,
+		"useGamepads": false,
+		"i18nAssets": [],
+		"layers": {
+			"0": {
+				"name": "Default",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "TransparentFX",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Ignore Raycast",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "3",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "Water",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			},
+			"5": {
+				"name": "UI",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"6": {
+				"name": "6",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"7": {
+				"name": "7",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			}
+		}
+	},
+	"scenes": [
+		{
+			"name": "newScene",
+			"url": "1598943442728.json"
+		}
+	],
+	"assets": {
+		"1598943458583": {
+			"id": 1598943458583,
+			"name": "展厅4.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 94,
+				"meshInstances": 0,
+				"nodes": 96,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "展厅4.glb",
+				"size": 745356,
+				"path": "files/1598943442725/assets/1598943458583/展厅4.glb"
+			},
+			"region": ""
+		},
+		"1598943874704": {
+			"id": 1598943874704,
+			"name": "image",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598943982476": {
+			"id": 1598943982476,
+			"name": "大规模火灾动态烟雾场的轻量级网页可视化方法及系统.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "大规模火灾动态烟雾场的轻量级网页可视化方法及系统.jpg",
+				"size": 79336,
+				"hash": "a46e4f30ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982476/大规模火灾动态烟雾场的轻量级网页可视化方法及系统.jpg"
+			},
+			"region": ""
+		},
+		"1598943982480": {
+			"id": 1598943982480,
+			"name": "基于兴趣行为的分布式虚拟环境缓存管理方法 (2).jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "基于兴趣行为的分布式虚拟环境缓存管理方法 (2).jpg",
+				"size": 78691,
+				"hash": "a47023f0ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982480/基于兴趣行为的分布式虚拟环境缓存管理方法 (2).jpg"
+			},
+			"region": ""
+		},
+		"1598943982477": {
+			"id": 1598943982477,
+			"name": "基于兴趣行为的分布式虚拟环境缓存管理方法.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "基于兴趣行为的分布式虚拟环境缓存管理方法.jpg",
+				"size": 91037,
+				"hash": "a46fd5d0ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982477/基于兴趣行为的分布式虚拟环境缓存管理方法.jpg"
+			},
+			"region": ""
+		},
+		"1598943982481": {
+			"id": 1598943982481,
+			"name": "一种同种异态森林场景构建方法及系统（三昧转动画和盘古）.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "一种同种异态森林场景构建方法及系统（三昧转动画和盘古）.jpg",
+				"size": 76932,
+				"hash": "a4709920ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982481/一种同种异态森林场景构建方法及系统（三昧转动画和盘古）.jpg"
+			},
+			"region": ""
+		},
+		"1598943982482": {
+			"id": 1598943982482,
+			"name": "基于增强型PyrLK光流法的树木轻量化3D重建方法（三昧转动画和盘古）.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "基于增强型PyrLK光流法的树木轻量化3D重建方法（三昧转动画和盘古）.jpg",
+				"size": 65402,
+				"hash": "a4718380ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982482/基于增强型PyrLK光流法的树木轻量化3D重建方法（三昧转动画和盘古）.jpg"
+			},
+			"region": ""
+		},
+		"1598943982475": {
+			"id": 1598943982475,
+			"name": "软著-盘古-面向MMD人物模型的动作重定向系统1.0.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "软著-盘古-面向MMD人物模型的动作重定向系统1.0.jpg",
+				"size": 243823,
+				"hash": "a4737f50ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982475/软著-盘古-面向MMD人物模型的动作重定向系统1.0.jpg"
+			},
+			"region": ""
+		},
+		"1598943982532": {
+			"id": 1598943982532,
+			"name": "软著-盘古-MMD动画预览与编辑系统1.0.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "软著-盘古-MMD动画预览与编辑系统1.0.jpg",
+				"size": 80036,
+				"hash": "a4741b90ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982532/软著-盘古-MMD动画预览与编辑系统1.0.jpg"
+			},
+			"region": ""
+		},
+		"1598943982538": {
+			"id": 1598943982538,
+			"name": "轻量化的BIM大数据在线可视化方法和系统（三昧） (2).jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "轻量化的BIM大数据在线可视化方法和系统（三昧） (2).jpg",
+				"size": 60968,
+				"hash": "a475c940ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982538/轻量化的BIM大数据在线可视化方法和系统（三昧） (2).jpg"
+			},
+			"region": ""
+		},
+		"1598943982544": {
+			"id": 1598943982544,
+			"name": "软著-盘古-基于云端渲染的MMD交互式内容生成系统 -.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "软著-盘古-基于云端渲染的MMD交互式内容生成系统 -.jpg",
+				"size": 247741,
+				"hash": "a4783a40ec2111eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598943982544/软著-盘古-基于云端渲染的MMD交互式内容生成系统 -.jpg"
+			},
+			"region": ""
+		},
+		"1598954755550": {
+			"id": 1598954755550,
+			"name": "专利",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598954767083": {
+			"id": 1598954767083,
+			"name": "证书",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598954819511": {
+			"id": 1598954819511,
+			"name": "2018年中国产学研合作促进会--创新奖.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "2018年中国产学研合作促进会--创新奖.png",
+				"size": 1063297,
+				"hash": "e00e8e10ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954819511/2018年中国产学研合作促进会--创新奖.png"
+			},
+			"region": ""
+		},
+		"1598954819514": {
+			"id": 1598954819514,
+			"name": "发证_2016111032838一种同种异态森林场景构建方法及系统.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "发证_2016111032838一种同种异态森林场景构建方法及系统.png",
+				"size": 1660670,
+				"hash": "e04f8eb0ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954819514/发证_2016111032838一种同种异态森林场景构建方法及系统.png"
+			},
+			"region": ""
+		},
+		"1598954820143": {
+			"id": 1598954820143,
+			"name": "发证_2018100724143大规模火灾动态烟雾场的轻量级网页可视化方法及系统.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "发证_2018100724143大规模火灾动态烟雾场的轻量级网页可视化方法及系统.png",
+				"size": 1520337,
+				"hash": "e07e8df0ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954820143/发证_2018100724143大规模火灾动态烟雾场的轻量级网页可视化方法及系统.png"
+			},
+			"region": ""
+		},
+		"1598954819516": {
+			"id": 1598954819516,
+			"name": "发证_2016111027844轻量化的BIM大数据在线可视化方法和系统.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "发证_2016111027844轻量化的BIM大数据在线可视化方法和系统.png",
+				"size": 1533514,
+				"hash": "e080d7e0ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954819516/发证_2016111027844轻量化的BIM大数据在线可视化方法和系统.png"
+			},
+			"region": ""
+		},
+		"1598954819510": {
+			"id": 1598954819510,
+			"name": "2018年ChinaVR--最佳论文奖.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "2018年ChinaVR--最佳论文奖.png",
+				"size": 2337584,
+				"hash": "e089b180ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954819510/2018年ChinaVR--最佳论文奖.png"
+			},
+			"region": ""
+		},
+		"1598954819513": {
+			"id": 1598954819513,
+			"name": "2019年中国产学研合作促进会--工匠精神奖.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "2019年中国产学研合作促进会--工匠精神奖.png",
+				"size": 3216575,
+				"hash": "e090b660ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954819513/2019年中国产学研合作促进会--工匠精神奖.png"
+			},
+			"region": ""
+		},
+		"1598954819508": {
+			"id": 1598954819508,
+			"name": "2019年吴文俊人工智能科学技术奖--科技进步奖二等奖.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "2019年吴文俊人工智能科学技术奖--科技进步奖二等奖.png",
+				"size": 3551366,
+				"hash": "e0930050ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954819508/2019年吴文俊人工智能科学技术奖--科技进步奖二等奖.png"
+			},
+			"region": ""
+		},
+		"1598954820645": {
+			"id": 1598954820645,
+			"name": "发证-2013106869891基于增强型PyrLK光流法的树木轻量化3D重建方法.png",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "发证-2013106869891基于增强型PyrLK光流法的树木轻量化3D重建方法.png",
+				"size": 2207126,
+				"hash": "e0a83600ec3a11eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954820645/发证-2013106869891基于增强型PyrLK光流法的树木轻量化3D重建方法.png"
+			},
+			"region": ""
+		},
+		"1598954856907": {
+			"id": 1598954856907,
+			"name": "Script",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598954894685": {
+			"id": 1598954894685,
+			"name": "sceneSet.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"sceneSet": {
+						"attributesOrder": [
+							"showtexture0",
+							"showtexture1",
+							"showtexture2",
+							"showtexture3",
+							"showtexture4",
+							"showtexture5",
+							"showtexture6",
+							"showtexture7",
+							"showtexture8",
+							"showtexture9",
+							"showtexture10",
+							"showtexture11",
+							"showtexture12",
+							"showtexture13",
+							"showtexture14",
+							"showtexture15",
+							"showtexture16",
+							"image"
+						],
+						"attributes": {
+							"showtexture0": {
+								"title": "showtexture0",
+								"type": "asset"
+							},
+							"showtexture1": {
+								"title": "showtexture1",
+								"type": "asset"
+							},
+							"showtexture2": {
+								"title": "showtexture2",
+								"type": "asset"
+							},
+							"showtexture3": {
+								"title": "showtexture3",
+								"type": "asset"
+							},
+							"showtexture4": {
+								"title": "showtexture4",
+								"type": "asset"
+							},
+							"showtexture5": {
+								"title": "showtexture5",
+								"type": "asset"
+							},
+							"showtexture6": {
+								"title": "showtexture6",
+								"type": "asset"
+							},
+							"showtexture7": {
+								"title": "showtexture7",
+								"type": "asset"
+							},
+							"showtexture8": {
+								"title": "showtexture8",
+								"type": "asset"
+							},
+							"showtexture9": {
+								"title": "showtexture9",
+								"type": "asset"
+							},
+							"showtexture10": {
+								"title": "showtexture10",
+								"type": "asset"
+							},
+							"showtexture11": {
+								"title": "showtexture11",
+								"type": "asset"
+							},
+							"showtexture12": {
+								"title": "showtexture12",
+								"type": "asset"
+							},
+							"showtexture13": {
+								"title": "showtexture13",
+								"type": "asset"
+							},
+							"showtexture14": {
+								"title": "showtexture14",
+								"type": "asset"
+							},
+							"showtexture15": {
+								"title": "showtexture15",
+								"type": "asset"
+							},
+							"showtexture16": {
+								"title": "showtexture16",
+								"type": "asset"
+							},
+							"image": {
+								"title": "image",
+								"type": "entity",
+								"description": "image"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "sceneSet.js",
+				"size": 2507,
+				"hash": "df346b60ece211eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1598954894685/sceneSet.js"
+			},
+			"region": ""
+		},
+		"1599022769793": {
+			"id": 1599022769793,
+			"name": "playerControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"playerControl": {
+						"attributesOrder": [
+							"speed",
+							"directionY_Ref"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": 1
+							},
+							"directionY_Ref": {
+								"title": "directionY_Ref",
+								"type": "entity",
+								"description": "directionY_Ref"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "playerControl.js",
+				"size": 5139,
+				"hash": "22b6dfd0ecd911eaae3235de444af0eb",
+				"path": "files/1598943442725/assets/1599022769793/playerControl.js"
+			},
+			"region": ""
+		},
+		"1599032596312": {
+			"id": 1599032596312,
+			"name": "展厅3.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 94,
+				"meshInstances": 0,
+				"nodes": 97,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "展厅3.glb",
+				"size": 1158808,
+				"path": "files/1598943442725/assets/1599032596312/展厅3.glb"
+			},
+			"region": ""
+		},
+		"1599035792179": {
+			"id": 1599035792179,
+			"name": "YFCG_.zip",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": null,
+			"type": "binary",
+			"file": null,
+			"region": ""
+		},
+		"1599035801651": {
+			"id": 1599035801651,
+			"name": "YFCG_.zip",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": null,
+			"type": "binary",
+			"file": null,
+			"region": ""
+		},
+		"1599035826461": {
+			"id": 1599035826461,
+			"name": "YFCG_.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 94,
+				"meshInstances": 0,
+				"nodes": 97,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "YFCG_.gltf",
+				"size": 4039285,
+				"path": "files/1598943442725/assets/1599035826461/YFCG_.gltf"
+			},
+			"region": ""
+		},
+		"1599102825766": {
+			"id": 1599102825766,
+			"name": "Man01(3).glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 4,
+				"meshInstances": 0,
+				"nodes": 46,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Man01(3).glb",
+				"size": 6090756,
+				"path": "files/1598943442725/assets/1599102825766/Man01(3).glb"
+			},
+			"region": ""
+		}
+	}
+}

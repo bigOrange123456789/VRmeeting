@@ -1,0 +1,18 @@
+json文件的使用
+jsonLoader = new THREE.FileLoader(THREE.DefaultLoadingManager);
+        var data,CONFIG_PATH;
+        jsonLoader.load(CONFIG_PATH, function (text) {
+            try {
+                data = JSON.parse(text);
+            } catch (error) {}
+            callback(data);
+        });
+        console.log(data);
+/////////////////////////////////////
+        var data,jsonLoader2 = new THREE.FileLoader(THREE.DefaultLoadingManager);
+        jsonLoader2.load('./config.json', function (text) {
+              data = JSON.parse(text);
+              console.log(1,data);
+        });
+        console.log(2,data);
+/////////////////////////////////////

@@ -1,0 +1,594 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": true,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"item_id": 1598239593105,
+		"project": 1598239593105,
+		"name": "project",
+		"useKeyboard": true,
+		"useMouse": true,
+		"useTouch": true,
+		"useGamepads": false,
+		"i18nAssets": [],
+		"layers": {
+			"0": {
+				"name": "Default",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "TransparentFX",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Ignore Raycast",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "3",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "Water",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			},
+			"5": {
+				"name": "UI",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"6": {
+				"name": "6",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"7": {
+				"name": "7",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			}
+		}
+	},
+	"scenes": [
+		{
+			"name": "newScene",
+			"url": "1598239593109.json"
+		}
+	],
+	"assets": {
+		"1598239602324": {
+			"id": 1598239602324,
+			"name": "skybox",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598239640514": {
+			"id": 1598239640514,
+			"name": "posy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posy.jpg",
+				"size": 540436,
+				"hash": "b80aafc0e5b911ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239640514/posy.jpg"
+			},
+			"region": ""
+		},
+		"1598239640511": {
+			"id": 1598239640511,
+			"name": "negz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negz.jpg",
+				"size": 891860,
+				"hash": "b8155e20e5b911ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239640511/negz.jpg"
+			},
+			"region": ""
+		},
+		"1598239640513": {
+			"id": 1598239640513,
+			"name": "posx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posx.jpg",
+				"size": 814015,
+				"hash": "b815ac40e5b911ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239640513/posx.jpg"
+			},
+			"region": ""
+		},
+		"1598239640515": {
+			"id": 1598239640515,
+			"name": "posz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posz.jpg",
+				"size": 866681,
+				"hash": "b81759f0e5b911ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239640515/posz.jpg"
+			},
+			"region": ""
+		},
+		"1598239640509": {
+			"id": 1598239640509,
+			"name": "negx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negx.jpg",
+				"size": 933696,
+				"hash": "b8181d40e5b911ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239640509/negx.jpg"
+			},
+			"region": ""
+		},
+		"1598239654058": {
+			"id": 1598239654058,
+			"name": "negy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negy.jpg",
+				"size": 1119101,
+				"hash": "c006e810e5b911ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239654058/negy.jpg"
+			},
+			"region": ""
+		},
+		"1598239663784": {
+			"id": 1598239663784,
+			"name": "新建天空盒",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"textures": [
+					1598239640509,
+					1598239640513,
+					1598239640514,
+					1598239654058,
+					1598239640511,
+					1598239640515
+				],
+				"magFilter": 1,
+				"minFilter": 5,
+				"anisotropy": 1,
+				"name": ""
+			},
+			"type": "cubemap",
+			"file": null,
+			"region": ""
+		},
+		"1598239700451": {
+			"id": 1598239700451,
+			"name": "Script",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1598239793079": {
+			"id": 1598239793079,
+			"name": "playerControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"playerControl": {
+						"attributesOrder": [
+							"speed",
+							"directionY_Ref"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": 1
+							},
+							"directionY_Ref": {
+								"title": "directionY_Ref",
+								"type": "entity",
+								"description": "directionY_Ref"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "playerControl.js",
+				"size": 5325,
+				"hash": "43e06a80e5ba11ea856d45c8fa2509fb",
+				"path": "files/1598239593105/assets/1598239793079/playerControl.js"
+			},
+			"region": ""
+		},
+		"1598259493480": {
+			"id": 1598259493480,
+			"name": "1.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 98,
+				"meshInstances": 0,
+				"nodes": 98,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "1.glb",
+				"size": 92931812,
+				"path": "files/1598239593105/assets/1598259493480/1.glb"
+			},
+			"region": ""
+		},
+		"1598259712054": {
+			"id": 1598259712054,
+			"name": "Freeman2.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 43,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Freeman2.glb",
+				"size": 5468796,
+				"path": "files/1598239593105/assets/1598259712054/Freeman2.glb"
+			},
+			"region": ""
+		},
+		"1598341739314": {
+			"id": 1598341739314,
+			"name": "Chair825.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Chair825.glb",
+				"size": 811576,
+				"path": "files/1598239593105/assets/1598341739314/Chair825.glb"
+			},
+			"region": ""
+		},
+		"1598342038895": {
+			"id": 1598342038895,
+			"name": "sceneSet.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"sceneSet": {
+						"attributesOrder": [
+							"chair",
+							"screen"
+						],
+						"attributes": {
+							"chair": {
+								"title": "chair",
+								"type": "asset"
+							},
+							"screen": {
+								"title": "screen",
+								"type": "entity"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "sceneSet.js",
+				"size": 1263,
+				"hash": "2215a700e6a811ea84ed877dbd01025c",
+				"path": "files/1598239593105/assets/1598342038895/sceneSet.js"
+			},
+			"region": ""
+		}
+	}
+}

@@ -1,0 +1,1344 @@
+		"1596791329571": {
+			"id": 1596791329571,
+			"name": "business05_m_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business05_m_25.jpg",
+				"size": 39365,
+				"hash": "9b4ec300d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329571/business05_m_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791329562": {
+			"id": 1596791329562,
+			"name": "business01_m_60.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business01_m_60.jpg",
+				"size": 47686,
+				"hash": "9b4f1120d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329562/business01_m_60.jpg"
+			},
+			"region": ""
+		},
+		"1596791329564": {
+			"id": 1596791329564,
+			"name": "business02_m_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business02_m_35.jpg",
+				"size": 43212,
+				"hash": "9b4f8650d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329564/business02_m_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791329569": {
+			"id": 1596791329569,
+			"name": "business06_m_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business06_m_25.jpg",
+				"size": 45498,
+				"hash": "9b4f3830d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329569/business06_m_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791329566": {
+			"id": 1596791329566,
+			"name": "business04_m_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business04_m_35.jpg",
+				"size": 41158,
+				"hash": "9b4fad60d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329566/business04_m_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791329565": {
+			"id": 1596791329565,
+			"name": "business03_m_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business03_m_35.jpg",
+				"size": 42172,
+				"hash": "9b4fd470d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329565/business03_m_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791329621": {
+			"id": 1596791329621,
+			"name": "business07_m_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business07_m_25.jpg",
+				"size": 41695,
+				"hash": "9b54dd80d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329621/business07_m_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346333": {
+			"id": 1596791346333,
+			"name": "casual01_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual01_f_20.jpg",
+				"size": 57493,
+				"hash": "a54d33f0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346333/casual01_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346344": {
+			"id": 1596791346344,
+			"name": "casual07_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual07_f_20.jpg",
+				"size": 42755,
+				"hash": "a54e1e50d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346344/casual07_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346334": {
+			"id": 1596791346334,
+			"name": "casual02_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual02_f_25.jpg",
+				"size": 53331,
+				"hash": "a54f08b0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346334/casual02_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346336": {
+			"id": 1596791346336,
+			"name": "casual03_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual03_f_25.jpg",
+				"size": 52910,
+				"hash": "a54f2fc0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346336/casual03_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346342": {
+			"id": 1596791346342,
+			"name": "casual04_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual04_f_30.jpg",
+				"size": 54843,
+				"hash": "a54f56d0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346342/casual04_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346345": {
+			"id": 1596791346345,
+			"name": "casual05_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual05_f_25.jpg",
+				"size": 46162,
+				"hash": "a54fa4f0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346345/casual05_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346384": {
+			"id": 1596791346384,
+			"name": "casual08_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual08_f_25.jpg",
+				"size": 45264,
+				"hash": "a5532760d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346384/casual08_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346388": {
+			"id": 1596791346388,
+			"name": "casual09_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual09_f_25.jpg",
+				"size": 60078,
+				"hash": "a5537580d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346388/casual09_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346399": {
+			"id": 1596791346399,
+			"name": "casual11_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual11_f_30.jpg",
+				"size": 48987,
+				"hash": "a55682c1d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346399/casual11_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346398": {
+			"id": 1596791346398,
+			"name": "casual10_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual10_f_30.jpg",
+				"size": 48468,
+				"hash": "a55682c0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346398/casual10_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346408": {
+			"id": 1596791346408,
+			"name": "casual12_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual12_f_30.jpg",
+				"size": 49872,
+				"hash": "a556f7f0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346408/casual12_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346412": {
+			"id": 1596791346412,
+			"name": "casual13_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual13_f_30.jpg",
+				"size": 44394,
+				"hash": "a5574610d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346412/casual13_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346425": {
+			"id": 1596791346425,
+			"name": "casual14_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual14_f_25.jpg",
+				"size": 46633,
+				"hash": "a55ac880d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346425/casual14_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346427": {
+			"id": 1596791346427,
+			"name": "casual15_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual15_f_20.jpg",
+				"size": 50526,
+				"hash": "a55b16a0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346427/casual15_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346452": {
+			"id": 1596791346452,
+			"name": "casual16_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual16_f_30.jpg",
+				"size": 54133,
+				"hash": "a55dd5c0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346452/casual16_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346453": {
+			"id": 1596791346453,
+			"name": "casual17_f_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual17_f_35.jpg",
+				"size": 50503,
+				"hash": "a55e7200d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346453/casual17_f_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791346458": {
+			"id": 1596791346458,
+			"name": "casual19_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual19_f_20.jpg",
+				"size": 42442,
+				"hash": "a55ff8a0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346458/casual19_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346463": {
+			"id": 1596791346463,
+			"name": "casual18_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual18_f_30.jpg",
+				"size": 55588,
+				"hash": "a5621b80d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346463/casual18_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346484": {
+			"id": 1596791346484,
+			"name": "casual20_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual20_f_25.jpg",
+				"size": 44877,
+				"hash": "a5646570d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346484/casual20_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346483": {
+			"id": 1596791346483,
+			"name": "casual21_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual21_f_30.jpg",
+				"size": 45108,
+				"hash": "a5643e60d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346483/casual21_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346500": {
+			"id": 1596791346500,
+			"name": "casual22_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual22_f_25.jpg",
+				"size": 48771,
+				"hash": "a565c500d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346500/casual22_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346505": {
+			"id": 1596791346505,
+			"name": "casual23_f_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual23_f_35.jpg",
+				"size": 53795,
+				"hash": "a566d670d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346505/casual23_f_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791346517": {
+			"id": 1596791346517,
+			"name": "casual24_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual24_f_20.jpg",
+				"size": 50591,
+				"hash": "a5692060d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346517/casual24_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346532": {
+			"id": 1596791346532,
+			"name": "casual25_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual25_f_20.jpg",
+				"size": 41186,
+				"hash": "a56a58e0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346532/casual25_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346541": {
+			"id": 1596791346541,
+			"name": "casual26_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual26_f_25.jpg",
+				"size": 32722,
+				"hash": "a56bb870d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346541/casual26_f_25.jpg"
+			},
+			"region": ""
+		},

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>appStart</title>
+    <script>
+        CONFIG_PATH = "config.json";
+    </script>
+    <style>
+	#video{ position:absolute;width:0px;height:0px;}
+    </style>
+
+</head>
+
+<video id="video" controls="controls" autoplay loop muted>
+        <source src="../../public_video/test1.mp4">
+</video>
+<body>
+    <!-- 引擎依赖-->
+    <script src="build/three.js"></script>
+
+    <script src="./libs/js/libs/inflate.min.js"></script>
+    <script src="./libs/js/loader/EXRLoader.js"></script>
+
+    <script src="./libs/js/postprocessing/EffectComposer.js"></script>
+    <script src="./libs/js/postprocessing/MaskPass.js"></script>
+    <script src="./libs/js/postprocessing/RenderPass.js"></script>
+    <script src="./libs/js/postprocessing/ShaderPass.js"></script>
+    <script src="./libs/js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="./libs/threejs104/js/postprocessing/SSAOPass.js"></script>
+    <script src="./libs/threejs104/js/postprocessing/AdaptiveToneMappingPass.js"></script>
+
+    <script src="./libs/js/shaders/CopyShader.js"></script>
+    <script src="./libs/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="./libs/threejs104/js/shaders/SSAOShader.js"></script>
+    <script src="./libs/threejs104/js/shaders/VignetteShader.js"></script>
+    <script src="./libs/threejs104/js/shaders/ToneMapShader.js"></script>
+    <script src="./libs/threejs104/js/shaders/LuminosityShader.js"></script>
+
+    <script src="./libs/threejs104/js/SimplexNoise.js"></script>
+
+    <script src="build/ammo.js"></script>
+    <script src="build/Web3DEngine.js"></script>
+    <script src="build/W3DJsonConverter.js"></script>
+    <script type="module">import './js/nodes/THREE.Nodes.js';</script>
+
+    <script src="start.js"></script>
+
+	<script>
+        var assetServer = location.origin;
+    </script>
+</body>
+</html>

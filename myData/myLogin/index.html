@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>渲图 | Shinegraph</title>
+    <link href="favicon.ico" rel="shortcut icon"/>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/common.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <style type="text/css">
+        body{
+            overflow:scroll;
+            overflow-x:hidden;
+            overflow-y:hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- 头部开始 -->
+        <div class="header">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/logo.png" class="img-responsive">
+                    </a>
+                </div>
+<div style="display:none">
+                <div class="login-register" >
+                    <span class="login-span">登录</span>
+                    &nbsp;/&nbsp;
+                    <span class="register-span">注册</span>
+                </div>
+                <div class="user-logout" style="display: none;">
+                    <span class="user-span">个人名片</span>
+                    &nbsp;/&nbsp;
+                    <span class="logout-span">退出登录</span>
+                </div>
+</div>
+            </div>
+        </div>
+        <!-- 头部结束 -->
+    </div>
+    <script>
+        var myW=window.innerWidth,
+            myH=window.innerHeight;
+        var img=new Image();
+        //("myBGImg");
+        img.src="bg.png";
+        if(window.innerWidth/1897<window.innerHeight/797) img.width=myW*1.5;
+        else img.height=myH*1.5;//img.width=myH;//
+        //img.style.cssText='display:block;';
+            //'position:fixed;'+//位置可变
+            //'left:0px;'+//到部件左边距离
+            //'top:0px;'; //到部件右边 距离
+        document.body.appendChild(img);
+        document.body.timer=setInterval(function(){
+            if(myW!=window.innerWidth||myH!=window.innerHeight)window.location.href='index.html';
+        },10);
+    </script>
+    <!-- 弹窗开始 -->
+    <div class="wrap">
+        <div class="wrap-inner">
+            <div class="index-close" style="display:none">
+                <img src="./img/index-close1.png" />
+            </div>
+            <!-- 登陆开始 -->
+            <div class="login">
+                <h3>账号登录</h3>
+                <div class="login-method">
+                    <div class="login-method-code">
+                        <span>免密登录</span>
+                    </div>
+                    <div class="login-method-phone active">
+                        <span>手机登录</span>
+                    </div>
+                    <div class="login-method-mail">
+                        <span>邮箱登录</span>
+                    </div>
+                </div>
+                <div class="login-input-code" style="display: none;">
+                    <div class="login-input login-phone">
+                        <input class="login-code-phone-input" type="text" placeholder="请输入手机号" maxlength="11" />
+                    </div>
+                    <p class="default-tip login-code-phone-tip"></p>
+                    <div class="common-yzm login-yzm">
+                        <input class="login-code-code-input" type="text" placeholder="请输入验证码" />
+                        <div class="login-code-code-get">获取验证码</div>
+                    </div>
+                    <p class="default-tip login-code-code-tip"></p>
+
+                </div>
+                <div class="login-input-phone">
+                    <div class="login-input login-phone">
+                        <input class="login-phone-phone-input" type="text" placeholder="请输入手机号" maxlength="11" />
+                    </div>
+                    <p class="default-tip login-phone-phone-tip"></p>
+                    <div class="login-input login-pwd">
+                        <input class="login-phone-pwd-input" type="password" placeholder="请输入密码" maxlength="30" />
+                    </div>
+                    <p class="default-tip login-phone-pwd-tip"></p>
+                </div>
+                <div class="login-input-mail" style="display: none;">
+                    <div class="login-input login-phone">
+                        <input class="login-mail-mail-input" type="text" placeholder="请输入邮箱" />
+                    </div>
+                    <p class="default-tip login-mail-mail-tip"></p>
+                    <div class="login-input login-pwd">
+                        <input class="login-mail-pwd-input" type="password" placeholder="请输入密码" maxlength="30" />
+                    </div>
+                    <p class="default-tip login-mail-pwd-tip"></p>
+                </div>
+                <div class="login-word">
+                    <label> <input class="login-remember" type="checkbox" style="vertical-align: middle;"/>下次自动登录 </label>
+                    <b>|</b>
+                    <span class="go-forget">忘记密码?</span>
+                    <b>|</b>
+                    <span class="go-register">去注册 ></span>
+                </div>
+                <div class="login-btn">
+                    <button class="login-button">登录</button>
+                </div>
+            </div>
+            <!-- 登录结束 -->
+            <!-- 注册开始 -->
+            <div class="register">
+                <h3>注册账号</h3>
+                <div class="register-method">
+                    <div class="register-method-phone active">
+                        <span>手机注册</span>
+                    </div>
+                    <div class="register-method-mail">
+                        <span>邮箱注册</span>
+                    </div>
+                </div>
+                <div class="register-input-phone">
+                    <div class="register-input register-phone">
+                        <input class="register-phone-phone-input" type="text" placeholder="请输入手机号" maxlength="11" />
+                    </div>
+                    <p class="default-tip register-phone-phone-tip"></p>
+                    <div class="common-yzm register-yzm">
+                        <input class="register-phone-code-input" type="text" placeholder="请输入验证码" />
+                        <div class="register-phone-code-get">获取验证码</div>
+                    </div>
+                    <p class="default-tip register-phone-code-tip"></p>
+                    <div class="register-input register-pwd">
+                        <input class="register-phone-pwd-input" type="password" placeholder="请设置密码" />
+                    </div>
+                    <p class="default-tip register-phone-pwd-tip"></p>
+                </div>
+                <div class="register-input-mail" style="display: none">
+                    <div class="register-input register-mail">
+                        <input class="register-mail-mail-input" type="text" placeholder="请输入邮箱" />
+                    </div>
+                    <p class="default-tip register-mail-mail-tip"></p>
+                    <div class="register-input register-pwd">
+                        <input class="register-mail-pwd-input" type="password" placeholder="请设置密码" />
+                    </div>
+                    <p class="default-tip register-mail-pwd-tip"></p>
+                </div>
+
+                <div class="login-btn active">
+                    <button class="register-button">注册</button>
+                </div>
+                <div class="tab-type">
+                    <div class="switch-login-from-register">
+                        已有账号，去登录
+                    </div>
+                </div>
+            </div>
+            <!-- 注册结束 -->
+            <!-- 找回密码开始 -->
+            <div class="forget">
+                <h3>找回密码</h3>
+                <div class="forget-method">
+                    <div class="forget-method-phone active">
+                        <span>手机找回</span>
+                    </div>
+                    <div class="forget-method-mail">
+                        <span>邮箱找回</span>
+                    </div>
+                </div>
+                <div class="forget-input-phone">
+                    <div class="forget-input forget-phone">
+                        <input class="forget-phone-phone-input" type="text" placeholder="请输入手机号" maxlength="11" />
+                    </div>
+                    <p class="default-tip forget-phone-phone-tip"></p>
+                    <div class="common-yzm forget-yzm">
+                        <input class="forget-phone-code-input" type="text" placeholder="请输入验证码" />
+                        <div class="forget-phone-code-get">获取验证码</div>
+                    </div>
+                    <p class="default-tip forget-phone-code-tip"></p>
+                    <div class="forget-input forget-pwd">
+                        <input class="forget-phone-pwd-input" type="password" placeholder="请输入新密码" />
+                    </div>
+                    <p class="default-tip forget-phone-pwd-tip"></p>
+                </div>
+                <div class="forget-input-mail" style="display: none;">
+                    <div class="forget-input forget-phone">
+                        <input class="forget-mail-mail-input" type="text" placeholder="请输入邮箱" />
+                    </div>
+                    <p class="default-tip forget-mail-mail-tip"></p>
+                    <!-- <div class="forget-input forget-pwd">
+                        <input class="forget-mail-pwd-input" type="password" placeholder="请输入新密码" maxlength="30" />
+                    </div>
+                    <p class="default-tip forget-mail-pwd-tip"></p> -->
+                </div>
+                <div class="login-btn active">
+                    <button class="forget-button">找回</button>
+                </div>
+                <div class="tab-type">
+                    <div class="switch-login-from-forget">
+                        返回登录
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- 找回密码结束 -->
+        </div>
+    </div>
+    <!-- 彈窗結束 -->
+    <script src="../myConfig.js"></script>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/logManager.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

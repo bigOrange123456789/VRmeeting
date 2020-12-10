@@ -1,0 +1,247 @@
+
+
+.wrap-inner h3 {
+    font-size: 22px;
+    border-bottom: 1px solid #f7f7f7;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.tab-type {
+    margin-top: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.tab-type>div {
+    text-align: center;
+    color: rgb(77, 188, 251);
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 0 16px;
+}
+
+.tab-type img {
+    margin-right: 10px;
+}
+
+
+
+.default-tip {
+    color: red;
+    height: 20px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+
+.login-input,
+.register-input,
+.forget-input {
+    width: 374px;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 20px;
+    border: 1px solid #e6e6e6;
+    margin: 0 auto;
+}
+
+.login-input.active,
+.register-input.active,
+.forget-input.active {
+    border: 1px solid rgb(77, 188, 251);
+}
+
+.login-input input,
+.register-input input,
+.forget-input input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 16px;
+}
+
+.common-yzm {
+    width: 374px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e6e6e6;
+}
+
+.common-yzm input {
+    width: 240px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 20px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.common-yzm>div {
+    width: 109px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: rgb(77, 188, 251);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.login-method,
+.register-method,
+.forget-method {
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.login-method>div,
+.register-method>div,
+.forget-method>div {
+    flex: 1;
+    cursor: pointer;
+}
+.login-method>div.active span,
+.register-method>div.active span,
+.forget-method>div.active span {
+    border-bottom: 4px solid rgb(77, 188, 251);
+}
+
+
+/* 登录开始 */
+.login,
+.register,
+.wechat,
+.forget,
+.set-forget,
+.resrt-success,
+.binding-success,
+.binding-tip,
+.binding,
+.id-information {
+    padding: 10px 37px 20px 37px;
+    display: none;
+}
+
+
+
+.login-btn {
+    width: 374px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(77, 188, 251);
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-btn button {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.login-word {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-word label,
+.login-word span {
+    cursor: pointer;
+}
+
+
+
+/* 登录结束 */
+
+/* 注册开始 */
+.register {
+    display: none;
+}
+
+.register .tab-type,
+.id-information .tab-type {
+    text-align: center;
+    color: rgb(77, 188, 251);
+    cursor: pointer;
+}
+
+.register .login-word b {
+    color: rgb(77, 188, 251);
+    font-weight: bold;
+}
+
+
+
+
+
+.register-method {
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.register-method-phone,
+.register-method-mail {
+    flex: 1;
+    cursor: pointer;
+}
+
+.register-method-phone.active span,
+.register-method-mail.active span {
+    border-bottom: 4px solid rgb(77, 188, 251);
+}
+
+/* 注册结束 */
+
+/* 找回密码开始 */
+.forget-method {
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.forget-method-phone,
+.forget-method-mail {
+    flex: 1;
+    cursor: pointer;
+}
+
+.forget-method-phone.active span,
+.forget-method-mail.active span {
+    border-bottom: 4px solid rgb(77, 188, 251);
+}
+
+/* 找回密码结束 */

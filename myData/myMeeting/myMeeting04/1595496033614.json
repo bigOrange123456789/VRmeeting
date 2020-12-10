@@ -1,0 +1,586 @@
+{
+	"settings": {
+		"physics": {
+			"gravity": [
+				0,
+				-0.98,
+				0
+			]
+		},
+		"render": {
+			"post_process": {
+				"overrides": {
+					"Bloom": {
+						"enabled": false,
+						"strength": 0.5,
+						"kernelSize": 5,
+						"sigma": 0.5,
+						"resolution": 512
+					},
+					"AmbientOcclusion": {
+						"enabled": false,
+						"kernelRadius": 4,
+						"kernelSize": 4,
+						"minDistance": 0.001,
+						"maxDistance": 0.005
+					},
+					"Highlights": {
+						"enabled": false,
+						"shadows": [
+							255,
+							255,
+							255,
+							177.5
+						],
+						"midtones": [
+							255,
+							255,
+							255,
+							177.5
+						],
+						"highlights": [
+							255,
+							255,
+							255,
+							177.5
+						],
+						"shadows_pos": [
+							97,
+							121,
+							100
+						],
+						"midtones_pos": [
+							97,
+							121,
+							100
+						],
+						"highlights_pos": [
+							97,
+							121,
+							100
+						],
+						"amount": 1
+					},
+					"Vignette": {
+						"enabled": false,
+						"offset": 0.8,
+						"darkness": 0.8
+					},
+					"ToneMapping": {
+						"enabled": false,
+						"exposure": 1000,
+						"whitePoint": 1
+					},
+					"Gamma": {
+						"enabled": false,
+						"brightness": 0,
+						"contrast": 1,
+						"gamma": 1,
+						"coeffs": [
+							0.5,
+							0.5,
+							0.5
+						]
+					},
+					"Saturation": {
+						"enabled": false,
+						"hue": 0,
+						"saturation": 1,
+						"value": 1
+					},
+					"Exposure": {
+						"enabled": false,
+						"adaptive": true
+					}
+				},
+				"enabled": true
+			},
+			"fog_end": 1000,
+			"fog_start": 1,
+			"global_ambient": [
+				0.2,
+				0.2,
+				0.2
+			],
+			"ambientLightIntensity": 1,
+			"fog_color": [
+				0,
+				0,
+				0
+			],
+			"fog": "none",
+			"fog_density": 0.01,
+			"gamma_correction": 1,
+			"tonemapping": 0,
+			"exposure": 1,
+			"skybox": 1595496224368,
+			"skybox_color": [
+				0,
+				0,
+				0
+			],
+			"skyboxIntensity": 0.8,
+			"skyboxMip": 0,
+			"lightmap": [],
+			"lightmapSizeMultiplier": 16,
+			"lightmapMaxResolution": 2048,
+			"lightmapMode": 1,
+			"toneMappingExposure": 1,
+			"lightmapUV2": {}
+		}
+	},
+	"id": 1595496033614,
+	"scene": 1595496033614,
+	"item_id": 1595496033614,
+	"project_id": 1595496033608,
+	"branch_id": "",
+	"checkpoint_id": "",
+	"name": "newScene",
+	"uniqueId": 1595496033614,
+	"_id": "5f195661746ff91b58e42f24",
+	"entities": {
+		"8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a": {
+			"components": {
+				"transform": {
+					"scale": [
+						1,
+						1,
+						1
+					],
+					"position": [
+						0,
+						0,
+						0
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			"name": "Root",
+			"parent": null,
+			"resource_id": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"tags": [],
+			"layers": [
+				0
+			],
+			"enabled": true,
+			"children": [
+				"0dde4c2d-d09c-4f62-8b4f-165ecca8aed3",
+				"72dfae4d-3df5-41e4-bf22-7595d662e3b5",
+				"8526a169-920b-439b-9532-33d2f1dfe277",
+				"7afc9bef-0879-41e3-bcc3-693259b50839",
+				"80d99cf2-905d-42ba-8e37-c116927e547e",
+				"493004dd-dd04-47d9-9bbc-1ce703343841",
+				"c12a34d5-4711-4801-9489-bc87a590d5ef"
+			]
+		},
+		"0dde4c2d-d09c-4f62-8b4f-165ecca8aed3": {
+			"name": "立方体",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "0dde4c2d-d09c-4f62-8b4f-165ecca8aed3",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"MeshFilter": {
+					"type": "cube",
+					"mesh": null
+				},
+				"MeshRenderer": {
+					"enabled": true,
+					"material": 1595496667849,
+					"castShadow": true,
+					"receiveShadow": true,
+					"lightMapStatic": false
+				},
+				"transform": {
+					"position": [
+						8,
+						0,
+						10
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						30,
+						0,
+						40
+					]
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"main"
+					],
+					"scripts": {
+						"main": {
+							"enabled": true,
+							"attributes": {
+								"attribute": "hello , world",
+								"model": 1595496102089,
+								"man1": "8526a169-920b-439b-9532-33d2f1dfe277"
+							}
+						}
+					}
+				}
+			}
+		},
+		"72dfae4d-3df5-41e4-bf22-7595d662e3b5": {
+			"name": "player",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "72dfae4d-3df5-41e4-bf22-7595d662e3b5",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [
+				"599e9542-6e60-4e24-8949-090c93a762fe"
+			],
+			"layers": [
+				0
+			],
+			"components": {
+				"transform": {
+					"position": [
+						-5,
+						1.5,
+						0
+					],
+					"rotation": [
+						0,
+						270,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"playerControl"
+					],
+					"scripts": {
+						"playerControl": {
+							"enabled": true,
+							"attributes": {
+								"speed": 3,
+								"directionY_Ref": "599e9542-6e60-4e24-8949-090c93a762fe"
+							}
+						}
+					}
+				}
+			}
+		},
+		"599e9542-6e60-4e24-8949-090c93a762fe": {
+			"name": "相机",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "599e9542-6e60-4e24-8949-090c93a762fe",
+			"parent": "72dfae4d-3df5-41e4-bf22-7595d662e3b5",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"Camera": {
+					"enabled": true,
+					"cullingMask": [
+						1,
+						1,
+						1,
+						1
+					],
+					"Projection": "Perspective",
+					"field_of_view": 45,
+					"frustumSize": 0,
+					"nearClipPlane": 0.3,
+					"farClipPlane": 1000,
+					"aspect": 2,
+					"targetTexture": null
+				},
+				"transform": {
+					"position": [
+						0,
+						0,
+						0
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		},
+		"8526a169-920b-439b-9532-33d2f1dfe277": {
+			"name": "man",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "8526a169-920b-439b-9532-33d2f1dfe277",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"SkinnedMeshRenderer": {
+					"enabled": true,
+					"mesh": 1595496113723,
+					"material": null,
+					"castShadow": true,
+					"receiveShadow": true
+				},
+				"transform": {
+					"position": [
+						-1,
+						0,
+						0
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				},
+				"AnimationPlayer": {
+					"enabled": true,
+					"assets": [],
+					"paused": false,
+					"playAutomatically": true,
+					"speed": 1,
+					"wrapMode": "2201"
+				}
+			}
+		},
+		"7afc9bef-0879-41e3-bcc3-693259b50839": {
+			"name": "方向光",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "7afc9bef-0879-41e3-bcc3-693259b50839",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"Light": {
+					"enabled": true,
+					"type": "Directional",
+					"color": [
+						1,
+						1,
+						1
+					],
+					"cullingMask": [
+						1,
+						1,
+						1,
+						1
+					],
+					"intensity": 4,
+					"castShadow": false,
+					"shadowDistance": 50,
+					"mapSize": 1024,
+					"bias": 0,
+					"range": 50,
+					"spotAngle": 40,
+					"mode": "Realtime"
+				},
+				"transform": {
+					"position": [
+						1,
+						8,
+						1
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"lightControl"
+					],
+					"scripts": {
+						"lightControl": {
+							"enabled": true,
+							"attributes": {}
+						}
+					}
+				}
+			}
+		},
+		"80d99cf2-905d-42ba-8e37-c116927e547e": {
+			"name": "点光源",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "80d99cf2-905d-42ba-8e37-c116927e547e",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"Light": {
+					"enabled": true,
+					"type": "Point",
+					"color": [
+						1,
+						1,
+						1
+					],
+					"cullingMask": [
+						1,
+						1,
+						1,
+						1
+					],
+					"intensity": 3,
+					"castShadow": false,
+					"shadowDistance": 50,
+					"mapSize": 1024,
+					"bias": 0,
+					"range": 50,
+					"spotAngle": 40,
+					"mode": "Realtime"
+				},
+				"transform": {
+					"position": [
+						0,
+						1,
+						5
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		},
+		"493004dd-dd04-47d9-9bbc-1ce703343841": {
+			"name": "点光源",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "493004dd-dd04-47d9-9bbc-1ce703343841",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"Light": {
+					"enabled": true,
+					"type": "Point",
+					"color": [
+						1,
+						1,
+						1
+					],
+					"cullingMask": [
+						1,
+						1,
+						1,
+						1
+					],
+					"intensity": 3,
+					"castShadow": false,
+					"shadowDistance": 50,
+					"mapSize": 1024,
+					"bias": 0,
+					"range": 50,
+					"spotAngle": 40,
+					"mode": "Realtime"
+				},
+				"transform": {
+					"position": [
+						-3,
+						1,
+						1
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		},
+		"c12a34d5-4711-4801-9489-bc87a590d5ef": {
+			"name": "蒙皮网格渲染器",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "c12a34d5-4711-4801-9489-bc87a590d5ef",
+			"parent": "8d0aa7b7-8bd2-4b79-8452-fe6daf0a102a",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"SkinnedMeshRenderer": {
+					"enabled": true,
+					"mesh": 1595496096361,
+					"material": null,
+					"castShadow": true,
+					"receiveShadow": true
+				},
+				"transform": {
+					"position": [
+						3.6044549027714723,
+						5.948509270686516,
+						30.12556412338723
+					],
+					"rotation": [
+						0,
+						180,
+						0
+					],
+					"scale": [
+						0.005,
+						0.005,
+						0.005
+					]
+				}
+			}
+		}
+	},
+	"created": "2020-07-23T09:20:33.616Z",
+	"modified": "2020-07-23T09:46:00.367Z"
+}

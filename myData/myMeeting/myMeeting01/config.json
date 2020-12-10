@@ -1,0 +1,1223 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": true,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"item_id": 1595319640544,
+		"project": 1595319640544,
+		"name": "project",
+		"useKeyboard": true,
+		"useMouse": true,
+		"useTouch": true,
+		"useGamepads": false,
+		"i18nAssets": [],
+		"layers": {
+			"0": {
+				"name": "Default",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "TransparentFX",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Ignore Raycast",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "3",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "Water",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			},
+			"5": {
+				"name": "UI",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"6": {
+				"name": "6",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"7": {
+				"name": "7",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			}
+		}
+	},
+	"scenes": [
+		{
+			"name": "newScene 2",
+			"url": "1595328844122.json"
+		}
+	],
+	"assets": {
+		"1595319866040": {
+			"id": 1595319866040,
+			"name": "male_walk.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_walk.glb",
+				"size": 195316,
+				"path": "files/1595319640544/assets/1595319866040/male_walk.glb"
+			},
+			"region": ""
+		},
+		"1595319876854": {
+			"id": 1595319876854,
+			"name": "male_run.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_run.glb",
+				"size": 177668,
+				"path": "files/1595319640544/assets/1595319876854/male_run.glb"
+			},
+			"region": ""
+		},
+		"1595319889398": {
+			"id": 1595319889398,
+			"name": "female_walk.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "female_walk.glb",
+				"size": 199440,
+				"path": "files/1595319640544/assets/1595319889398/female_walk.glb"
+			},
+			"region": ""
+		},
+		"1595320847683": {
+			"id": 1595320847683,
+			"name": "chair.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 10,
+				"meshInstances": 0,
+				"nodes": 10,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "chair.gltf",
+				"size": 6708201,
+				"path": "files/1595319640544/assets/1595320847683/chair.gltf"
+			},
+			"region": ""
+		},
+		"1595320863193": {
+			"id": 1595320863193,
+			"name": "screen.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "screen.glb",
+				"size": 11944,
+				"path": "files/1595319640544/assets/1595320863193/screen.glb"
+			},
+			"region": ""
+		},
+		"1595320908102": {
+			"id": 1595320908102,
+			"name": "playerControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"playerControl": {
+						"attributesOrder": [
+							"speed",
+							"directionY_Ref"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": 1
+							},
+							"directionY_Ref": {
+								"title": "directionY_Ref",
+								"type": "entity",
+								"description": "directionY_Ref"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "playerControl.js",
+				"size": 5285,
+				"hash": "03cecc80cb2e11eaa479c33bb04da2ea",
+				"path": "files/playerControl.js"
+			},
+			"region": ""
+		},
+		"1595321305106": {
+			"id": 1595321305106,
+			"name": "main.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"main": {
+						"attributesOrder": [
+							"attribute",
+							"model",
+							"model2",
+							"room1",
+							"table1",
+							"table2",
+							"tv",
+							"screen",
+							"man1"
+						],
+						"attributes": {
+							"attribute": {
+								"title": "attribute",
+								"type": "string",
+								"default": "hello , world",
+								"description": "open attribute name attribute ; type - string ;"
+							},
+							"model": {
+								"title": "model",
+								"type": "asset"
+							},
+							"man1": {
+								"title": "man1",
+								"type": "entity"
+							},
+							"model2": {
+								"title": "model2",
+								"type": "asset"
+							},
+							"room1": {
+								"title": "room1",
+								"type": "asset"
+							},
+							"table1": {
+								"title": "table1",
+								"type": "asset"
+							},
+							"screen": {
+								"title": "screen",
+								"type": "asset"
+							},
+							"tv": {
+								"title": "tv",
+								"type": "asset"
+							},
+							"table2": {
+								"title": "table2",
+								"type": "asset"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "main.js",
+				"size": 9426,
+				"hash": "e6305040cd5d11ea88e5e99eb891c0b8",
+				"path": "files/main.js"
+			},
+			"region": ""
+		},
+		"1595381215907": {
+			"id": 1595381215907,
+			"name": "Room",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381240249": {
+			"id": 1595381240249,
+			"name": "Skybox",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381261638": {
+			"id": 1595381261638,
+			"name": "Roomshape",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381264503": {
+			"id": 1595381264503,
+			"name": "Meetingmesh",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381268317": {
+			"id": 1595381268317,
+			"name": "Avatar",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381329396": {
+			"id": 1595381329396,
+			"name": "posy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posy.jpg",
+				"size": 540436,
+				"hash": "b1dd3000cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329396/posy.jpg"
+			},
+			"region": ""
+		},
+		"1595381329401": {
+			"id": 1595381329401,
+			"name": "posz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posz.jpg",
+				"size": 866681,
+				"hash": "b1f2b3d0cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329401/posz.jpg"
+			},
+			"region": ""
+		},
+		"1595381329398": {
+			"id": 1595381329398,
+			"name": "posx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posx.jpg",
+				"size": 814015,
+				"hash": "b1f301f0cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329398/posx.jpg"
+			},
+			"region": ""
+		},
+		"1595381329393": {
+			"id": 1595381329393,
+			"name": "negx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negx.jpg",
+				"size": 933696,
+				"hash": "b1f5e820cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329393/negx.jpg"
+			},
+			"region": ""
+		},
+		"1595381329399": {
+			"id": 1595381329399,
+			"name": "negz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negz.jpg",
+				"size": 891860,
+				"hash": "b1f63640cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329399/negz.jpg"
+			},
+			"region": ""
+		},
+		"1595381329395": {
+			"id": 1595381329395,
+			"name": "negy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negy.jpg",
+				"size": 1102047,
+				"hash": "b1f94380cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329395/negy.jpg"
+			},
+			"region": ""
+		},
+		"1595381332634": {
+			"id": 1595381332634,
+			"name": "新建天空盒",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"textures": [
+					1595381329393,
+					1595381329398,
+					1595381329396,
+					1595381329395,
+					1595381329399,
+					1595381329401
+				],
+				"magFilter": 1,
+				"minFilter": 5,
+				"anisotropy": 1,
+				"name": ""
+			},
+			"type": "cubemap",
+			"file": null,
+			"region": ""
+		},
+		"1595381519117": {
+			"id": 1595381519117,
+			"name": "gallery.zip",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": null,
+			"type": "binary",
+			"file": null,
+			"region": ""
+		},
+		"1595381532512": {
+			"id": 1595381532512,
+			"name": "gallery.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 16,
+				"meshInstances": 0,
+				"nodes": 22,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "gallery.gltf",
+				"size": 739730,
+				"path": "files/1595319640544/assets/1595381532512/gallery.gltf"
+			},
+			"region": ""
+		},
+		"1595382005342": {
+			"id": 1595382005342,
+			"name": "male_run.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_run.glb",
+				"size": 177668,
+				"path": "files/1595319640544/assets/1595382005342/male_run.glb"
+			},
+			"region": ""
+		},
+		"1595382274666": {
+			"id": 1595382274666,
+			"name": "电视柜001 (13).gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 170,
+				"meshInstances": 0,
+				"nodes": 170,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "电视柜001 (13).gltf",
+				"size": 2117791,
+				"path": "files/1595319640544/assets/1595382274666/电视柜001 (13).gltf"
+			},
+			"region": ""
+		},
+		"1595385747580": {
+			"id": 1595385747580,
+			"name": "新建材质球",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"ambientTint": false,
+				"aoMap": null,
+				"aoMapChannel": "r",
+				"aoMapUv": 1,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"aoVertexColor": false,
+				"aoVertexColorChannel": "rgb",
+				"diffuse": [
+					0.4666666666666667,
+					0.3215686274509804,
+					0.03137254901960784
+				],
+				"diffuseMap": null,
+				"diffuseMapChannel": "r",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"diffuseVertexColorChannel": "r",
+				"diffuseVertexColor": false,
+				"specular": [
+					0.23,
+					0.23,
+					0.23
+				],
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMap": null,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"specularTint": true,
+				"specularVertexColor": true,
+				"specularVertexColorChannel": "rgb",
+				"occludeSpecular": 0,
+				"useMetalness": true,
+				"metalnessMap": null,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 0,
+				"metalnessVertexColorChannel": "rgb",
+				"conserveEnergy": true,
+				"shininess": 100,
+				"glossMap": null,
+				"glossMapVertexColor": false,
+				"glossVertexColorChannel": "rgb",
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 2,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"emissiveMap": null,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 0.07,
+				"emissiveVertexColor": false,
+				"emissiveVertexColorChannel": "rgb",
+				"normalMap": null,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 0.7,
+				"heightMap": null,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"alphaToCoverage": false,
+				"opacity": 1,
+				"opacityMap": null,
+				"opacityMapVertexColor": false,
+				"opacityVertexColorChannel": "rgb",
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0,
+				"sphereMap": null,
+				"cubeMap": null,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMap": null,
+				"lightMapVertexColor": false,
+				"lightVertexColorChannel": "rgb",
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"depthBias": 0,
+				"slopeDepthBias": 0,
+				"cull": 1,
+				"blendType": 3,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true,
+				"fresnelFactor": 0,
+				"aoMapVertexColor": false,
+				"diffuseMapVertexColor": false,
+				"emissiveMapVertexColor": false,
+				"specularMapVertexColor": false,
+				"shadowSampleType": 1,
+				"mapping_format": "path"
+			},
+			"type": "material",
+			"file": null,
+			"region": ""
+		},
+		"1595404663770": {
+			"id": 1595404663770,
+			"name": "bathroomCloset.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "bathroomCloset.glb",
+				"size": 11944,
+				"path": "files/1595319640544/assets/1595404663770/bathroomCloset.glb"
+			},
+			"region": ""
+		},
+		"1595468531219": {
+			"id": 1595468531219,
+			"name": "lightControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"lightControl": {
+						"attributesOrder": []
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "lightControl.js",
+				"size": 2520,
+				"hash": "ba0aad40cc8511ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595468531219/lightControl.js"
+			},
+			"region": ""
+		},
+		"1595495560974": {
+			"id": 1595495560974,
+			"name": "124-餐桌.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "124-餐桌.glb",
+				"size": 1853432,
+				"path": "files/1595319640544/assets/1595495560974/124-餐桌.glb"
+			},
+			"region": ""
+		},
+		"1595816028486": {
+			"id": 1595816028486,
+			"name": "chair.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "chair.glb",
+				"size": 1604132,
+				"path": "files/1595319640544/assets/1595816028486/chair.glb"
+			},
+			"region": ""
+		},
+		"1595833286092": {
+			"id": 1595833286092,
+			"name": "演讲桌.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "演讲桌.glb",
+				"size": 1651836,
+				"path": "files/1595319640544/assets/1595833286092/演讲桌.glb"
+			},
+			"region": ""
+		}
+	}
+}

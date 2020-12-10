@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>appStart</title>
+    <script>
+        CONFIG_PATH = "config.json";
+    </script>
+<!--9楼头部代码开始-->
+    <meta charset="utf-8" />
+    <link rel="icon" href="./asset/imgs/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+
+    <link rel="apple-touch-icon" href="./asset/imgs/logo.png" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2028602_xdznp151m0f.css" />
+    <link rel="stylesheet" href="./asset/dist/css/bootstrap-slider.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>渲图 | Shinegraph</title>
+
+    <script src="./index.js"></script>
+    <script src="./asset/dist/bootstrap-slider.js"></script>
+    <script>
+
+      function changeType(event) {
+        let idOne = event.target.id;
+
+        document.querySelectorAll(".createMeeting-content-tab").forEach((item, index) => {
+          if (!item.classList.contains("hide")) {
+            item.classList.add("hide");
+          }
+        });
+        document.querySelectorAll(".createMeeting-tab-item").forEach((item, index) => {
+          if (item.classList.contains("active")) {
+            item.classList.remove("active");
+          }
+        });
+        document.querySelector(`#${idOne}Part`).classList.remove("hide");
+        document.querySelector(`#${idOne}`).classList.add("active");
+      }
+    </script>
+<!--9楼头部代码结束-->
+</head>
+<body>
+<!--开始取消浏览器自带的鼠标右键检测-->
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+<body oncontextmenu="doNothing()">
+<!--完成取消浏览器自带的鼠标右键检测-->
+<script src="../avatar_tool.js"></script>
+
+<script src="../myConfig.js"></script>
+<script src="../mongo_tool_js/util.js"></script>
+<script src="../mongo_tool_js/logManager.js"></script>
+<script src="../mongo_tool_js/axios.min.js"></script>
+<script src="../mongo_tool_js/myMongoDB.js"></script>
+
+<script src="../UI_tool.js"></script>
+<script src="editUI.js"></script>
+<!--9楼身体部分代码开始-->
+   <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"  style="position:fixed;left:0px;top:0px;display:none">
+      <div class="App">
+        <div class="router-content">
+          <div class="editAvatar-container">
+            <div class="editAvatar-content">
+              <div class="editavatar-all-parts">
+                <div>
+                  <ul class="clearfix editavatar-parts" onclick="changeType(event)">
+                      <script>
+                          //var myBodyPanel=document.getElementById("myPanel1"),myArmPanel=document.getElementById("myPanel2");
+
+                      </script>
+                    <li class="createMeeting-tab-item active" id="general">常规</li>
+                    <li class="createMeeting-tab-item" id="arm">四肢</li>
+                    <li class="createMeeting-tab-item" id="leg">上衣</li>
+                    <li class="createMeeting-tab-item" id="clothing">裤子</li>
+                  </ul>
+                  <div class="editAvatar-content-tabs">
+                    <div class="createMeeting-content-tab" id="generalPart">
+                      <div class="editavatar-all-lists">
+
+
+                          <div id="myControlPanel1"></div>
+                          <div style="display:none">
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 身高:</span>
+                          <input id="slider1" data-slider-id="slider1" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 衣领:</span>
+                          <div class="rc-slider">
+                            <div class="rc-slider-rail"></div>
+                            <div class="rc-slider-track" style="left: 0%; right: auto; width: 0%"></div>
+                            <div class="rc-slider-step"></div>
+                            <input id="slider2" data-slider-id="slider2" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                            <div class="rc-slider-mark"></div>
+                          </div>
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 锁骨:</span>
+                          <input id="slider3" data-slider-id="slider3" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 胸口:</span>
+                          <input id="slider4" data-slider-id="slider4" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 腰部:</span>
+                          <input id="slider5" data-slider-id="slider5" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 身高:</span>
+                          <input id="slider6" data-slider-id="slider6" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 小腹:</span>
+                          <input id="slider12" data-slider-id="slider12" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                          </div>
+
+
+
+
+                      </div>
+                    </div>
+                    <div class="createMeeting-content-tab hide" id="armPart">
+                      <div class="editavatar-all-lists">
+
+
+
+                          <div id="myControlPanel2"></div>
+                          <div style="display:none">
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 肩膀:</span>
+                          <input id="slider7" data-slider-id="slider7" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 大臂:</span>
+                          <input id="slider8" data-slider-id="slider8" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 小臂:</span>
+                          <input id="slider9" data-slider-id="slider9" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 手腕:</span>
+                          <input id="slider10" data-slider-id="slider10" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 臀部:</span>
+                          <input id="slider11" data-slider-id="slider11" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                          </div>
+
+
+
+                      </div>
+                    </div>
+                    <div class="createMeeting-content-tab hide" id="legPart">
+                      <div class="editavatar-all-lists">
+                        <div class="editavatar-list-item"><span class="slider-title"> 上衣:</span></div>
+                      </div>
+                    </div>
+                    <div class="createMeeting-content-tab hide" id="clothingPart">
+                      <div class="editavatar-all-lists">
+                        <div class="editavatar-list-item"><span class="slider-title"> 衣服:</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="all-menu-btns" >
+                    <span class="all-menu-item" id="ambassadors">更换形象</span><span class="all-menu-item" id="cloths">上衣形象</span><span class="all-menu-item" id="heads">头部形象</span
+                    ><span class="all-menu-item" id="shoes">鞋子形象</span><span class="all-menu-item" id="trouserss">裤子形象</span><span class="all-menu-item" id="hues">切换色调</span
+                    ><span class="all-menu-item" id="animation">切换动画</span><span class="all-menu-item" id="parameter">随机参数</span>
+                  </div>
+                    <script>
+                        var myMenuDom001 = document.querySelector(".all-menu-btns");
+                    </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--9楼身体部分代码结束-->
+<!-- 引擎依赖/开始-->
+    <script src="../engineLibrary/build/three.js"></script>
+
+    <script src="../engineLibrary/libs/js/libs/inflate.min.js"></script>
+    <script src="../engineLibrary/libs/js/loader/EXRLoader.js"></script>
+
+    <script src="../engineLibrary/libs/js/postprocessing/EffectComposer.js"></script>
+    <script src="../engineLibrary/libs/js/postprocessing/MaskPass.js"></script>
+    <script src="../engineLibrary/libs/js/postprocessing/RenderPass.js"></script>
+    <script src="../engineLibrary/libs/js/postprocessing/ShaderPass.js"></script>
+    <script src="../engineLibrary/libs/js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="../engineLibrary/libs/threejs104/js/postprocessing/SSAOPass.js"></script>
+    <script src="../engineLibrary/libs/threejs104/js/postprocessing/AdaptiveToneMappingPass.js"></script>
+
+    <script src="../engineLibrary/libs/js/shaders/CopyShader.js"></script>
+    <script src="../engineLibrary/libs/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="../engineLibrary/libs/threejs104/js/shaders/SSAOShader.js"></script>
+    <script src="../engineLibrary/libs/threejs104/js/shaders/VignetteShader.js"></script>
+    <script src="../engineLibrary/libs/threejs104/js/shaders/ToneMapShader.js"></script>
+    <script src="../engineLibrary/libs/threejs104/js/shaders/LuminosityShader.js"></script>
+
+    <script src="../engineLibrary/libs/threejs104/js/SimplexNoise.js"></script>
+
+    <script src="../engineLibrary/build/ammo.js"></script>
+    <script src="../engineLibrary/build/Web3DEngine.js"></script>
+    <script src="../engineLibrary/build/W3DJsonConverter.js"></script>
+    <script type="module">import '../engineLibrary/js/nodes/THREE.Nodes.js';</script>
+
+    <script src='../engineLibrary/start.js'></script>
+
+<script>
+     var assetServer = location.origin;
+</script>
+<!-- 引擎依赖/结束-->
+<div id="mypanel2" style="text-align:center;position:fixed;left:300px;top:180px;margin-top:20px;border:5px solid #8cb;width:630px;height:300px;background: #ffffff;display:none;">
+<div>
+     <h1 id="mytext1"style="font-size:35px">请为您的化身上传一张头像</h1>
+    <form name="form1"action="/upload?pic_name=123" method="post" enctype="multipart/form-data">
+        <input style="width:200px;height:50px"type="file" accept="image/jpg,image/png,image/jpeg,image/gif" required name="photo"></br></br>
+        <input style="width:300px;height:50px"type="submit" value="上传该图片">
+        <input type="button" style="width:90px;height:50px;" value="取消" onclick=hide_mypanel() />
+    </form>
+</div>
+</div>
+<script>document.forms['form1'].action="/upload?pic_name=avatar"+myRequest.myIndex+"_"+storage.getUser(username)._id+"";
+        document.getElementById("mypanel2").style.left=window.innerWidth/2-150+'px';
+        document.getElementById("mypanel2").style.top=window.innerHeight/3-90+'px';
+
+        var submit = document.querySelectorAll('input')[1];
+        submit.addEventListener('click', function () {
+            setTimeout(() => {
+                window.location.href ='../myAvatarSelect/avatarSelect.html'
+            },10);
+        })
+       function hide_mypanel(){
+          document.getElementById("mypanel2").style.display="none";
+       }
+    </script>
+</body>
+</html>

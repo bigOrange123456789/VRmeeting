@@ -1,0 +1,136 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./asset/imgs/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+
+    <link rel="apple-touch-icon" href="./asset/imgs/logo.png" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2028602_xdznp151m0f.css" />
+    <link rel="stylesheet" href="./asset/dist/css/bootstrap-slider.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>渲图 | Shinegraph</title>
+
+    <script src="./index.js"></script>
+    <script src="./asset/dist/bootstrap-slider.js"></script>
+    <script></script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="App">
+        <div class="router-content">
+          <div class="editAvatar-container">
+            <div class="editAvatar-content">
+              <div class="editavatar-all-parts">
+                <div>
+                  <ul class="clearfix editavatar-parts">
+                    <!-- <ul class="clearfix editavatar-parts" onclick="changeType(event)"> -->
+                    <li class="createMeeting-tab-item active" id="general">常规</li>
+                    <li class="createMeeting-tab-item" id="arm">手臂</li>
+                    <li class="createMeeting-tab-item" id="leg">腿部</li>
+                    <li class="createMeeting-tab-item" id="clothing">服装</li>
+                  </ul>
+                  <div class="editAvatar-content-tabs">
+                    <div class="createMeeting-content-tab" id="generalPart">
+                      <div class="editavatar-all-lists">
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 身高:</span>
+                          <input id="slider1" data-slider-id="slider1" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 衣领:</span>
+                          <input id="slider2" data-slider-id="slider2" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 锁骨:</span>
+                          <input id="slider3" data-slider-id="slider3" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 胸口:</span>
+                          <input id="slider4" data-slider-id="slider4" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 腰部:</span>
+                          <input id="slider5" data-slider-id="slider5" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 身高:</span>
+                          <input id="slider6" data-slider-id="slider6" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 小腹:</span>
+                          <input id="slider12" data-slider-id="slider12" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="createMeeting-content-tab vhide" id="armPart">
+                      <div class="editavatar-all-lists">
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 肩膀:</span>
+                          <input id="slider7" data-slider-id="slider7" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 大臂:</span>
+                          <input id="slider8" data-slider-id="slider8" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 小臂:</span>
+                          <input id="slider9" data-slider-id="slider9" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 手腕:</span>
+                          <input id="slider10" data-slider-id="slider10" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                        <div class="editavatar-list-item">
+                          <span class="slider-title"> 臀部:</span>
+                          <input id="slider11" data-slider-id="slider11" type="text" data-slider-min="0" data-slider-max="3" data-slider-step="0.01" data-slider-value="0" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="createMeeting-content-tab vhide" id="legPart">
+                      <div class="editavatar-all-lists">
+                        <div class="editavatar-list-item"><span class="slider-title"> 腿部:</span></div>
+                      </div>
+                    </div>
+                    <div class="createMeeting-content-tab vhide" id="clothingPart">
+                      <div class="editavatar-all-lists">
+                        <div class="editavatar-list-item"><span class="slider-title"> 衣服:</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="all-menu-btns">
+                    <!-- <div class="all-menu-btns" onclick="changeFunction(event)"> -->
+                    <span class="all-menu-item" id="ambassadors">更换形象</span><span class="all-menu-item" id="cloths">上衣形象</span><span class="all-menu-item" id="heads">头部形象</span
+                    ><span class="all-menu-item" id="shoes">鞋子形象</span><span class="all-menu-item" id="trouserss">裤子形象</span><span class="all-menu-item" id="hues">切换色调</span
+                    ><span class="all-menu-item" id="animation">切换动画</span><span class="all-menu-item" id="parameter">随机参数</span>
+                  </div>
+                  <div class="color-picker-all chide">
+                    <div class="color-picker-title">颜色：</div>
+                    <div  class="color-picker">
+                      
+                      <span class="color-picker-item"  id="black"></span>
+                      <span class="color-picker-item"  id="cyan"></span>
+                      <span class="color-picker-item"  id="green"></span>
+                      <span class="color-picker-item"  id="blue"></span>
+                      <span class="color-picker-item"  id="orange"></span>
+                      <span class="color-picker-item"  id="red"></span>
+                      <span class="color-picker-item"  id="yellow"></span>
+                      <span class="color-picker-item"  id="white"></span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

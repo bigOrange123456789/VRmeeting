@@ -1,0 +1,8 @@
+{
+    "DB_URL": "mongodb://localhost:27017/USERS",
+    "ip": "0.0.0.0",
+    "port": 8068,
+    "webIP":"http://0.0.0.0:8068",
+    "isSwitch":true,
+    "goto":"http://192.168.1.230:8080"
+}

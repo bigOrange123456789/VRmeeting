@@ -1,0 +1,44 @@
+.container {
+    width: 800px;
+    height: 300px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(77, 188, 251);
+    color: rgb(77, 188, 251);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+}
+
+.input-span {
+    font-size: 20px;
+    /* float: left; */
+    margin-right: 40px;
+    line-height: 42px;
+}
+
+.input-password {
+    width: 374px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 0 20px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;
+}
+
+.modify-btn {
+    display: block;
+    margin:  20px auto 0;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(77, 188, 251);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>加入房间</title>
+</head>
+<style type="text/css">
+body{
+overflow:scroll;
+overflow-x:hidden;
+}
+</style>
+<body>
+<script type="text/javascript">
+    function UrlSearch()
+    {
+        var name,value;
+        var str=unescape(location.href); //取得整个地址栏
+        var num=str.indexOf("?")
+        str=str.substr(num+1); //取得所有参数   stringvar.substr(start [, length ]
+
+        var arr=str.split("&"); //各个参数放到数组里
+        for(var i=0;i < arr.length;i++){
+            num=arr[i].indexOf("=");
+            if(num>0){
+                name=arr[i].substring(0,num);
+                value=arr[i].substr(num+1);
+                this[name]=value;
+            }
+        }
+    }
+    var myRequest=new UrlSearch(); //实例化
+</script>
+<script src="../myMeeting/myConfig.js"></script>
+
+<script src="../UI_tool.js"></script>
+<script src="js/mybackground.js"></script>
+
+<script src="../myConfig.js"></script>
+<script src="../mongo_tool_js/util.js"></script>
+<script src="../mongo_tool_js/logManager.js"></script>
+<script src="../mongo_tool_js/axios.min.js"></script>
+
+<script src="../mongo_tool_js/myMongoDB.js"></script>
+
+<div style="position:fixed;left:300px;top:200px;">
+	<form action="roomJoin.html" method="get">
+		<select name="search" style="font-size:20px;width:200px;height:35px">
+			<option value="_id">通过会议ID</option>
+			<option value="name">通过会议名称</option>
+			<option value="user_name">通过创建者用户名</option>
+		</select>
+		<input id="mytext" type="text" name="condition" value="" style="font-size:20px;width:310px;height:30px"/>
+		<input type="submit" value="查询" style="font-size:20px;width:200px;height:40px"onclick=myescape()></br>
+	</form>
+
+	<div id="btn_up_div"style="position:absolute;margin-top:1px;width:150px;height:100px;left:828px;top:10px;">
+		<button id="btn_up" style="font-size:7px;width:60px;height:25px">上一页</button>
+	</div>
+	<div style="position:absolute;width:300px;left:905px;top:3px;">
+		<font color="black"><h1 id="page_num"style="font-size:15px">第1页</h1></font>
+	</div>
+	<div id="btn_down_div"style="position:absolute;margin-top:1px;width:150px;height:100px;left:970px;top:10px;">
+		<button id="btn_down" style="font-size:5px;width:60px;height:25px">下一页</button>
+	</div>
+</div>
+<script>
+function myescape(){
+    var mytext = document.getElementById("mytext");
+    mytext.value=escape(mytext.value);
+}
+</script>
+
+
+
+
+<font size=5 color="red">
+	<div id="container" style="position:fixed;left:310px;top:260px;">
+		<script src="js/roomJoin.js"></script>
+	</div>
+</font>
+
+<div style="position:fixed;left:370px;top:430px;"></div>
+
+
+<div id="mypanel2" style="position:fixed;left:300px;top:180px;margin-top:20px;border:5px solid #0ff;width:1230px;height:700px;background: #ffffff;display:none;">
+	<div style="position:absolute;left:390px;">
+		<h1 id="mytext1"style="font-size:35px">房间名称：一个房间</h1>
+		<h1 id="mytext2"style="font-size:35px">场景类型：室内大型会场</h1>
+		<h1 id="mytext3"style="font-size:35px">会议规模：1人</h1>
+		<h1 id="mytext4"style="font-size:35px">开始时间：</h1>
+		<h1 id="mytext5"style="font-size:35px">结束时间：</h1>
+		<h1 id="mytext6"style="font-size:35px">创建者名称：</h1>
+		<h1 id="mytext7"style="font-size:35px">创建者ID：</h1>
+
+		<form action="../myMeeting/myMeeting01/index.html" method="get" name="form1">
+			<input id="room_type"type="hidden" name="room_type" value="001"><!--id是给当前页面看的，name是给目的页面看的-->
+			<input id="member_num0"type="hidden" name="member_num" value="2">
+			<input id="room_id"type="hidden" name="room_id" value="">
+			<input id="thisShowRoom"type="hidden" name="thisShowRoom" value=0>
+			<h1 style="font-size:35px">房间密码：<input id="mypassword" type="text" name="mypassword" value="111111" style="font-size:20px;width:310px;height:30px"/></h1><br/>
+			<button type="button" style="font-size:20px;width:200px;height:40px"onclick=(function(){document.getElementById("mypanel2").style.display="none";})()>取消</button>
+			<input type="submit" value="确定" style="font-size:20px;width:200px;height:40px" ></br>
+		</form>
+	</div>
+</div>
+
+
+
+
+
+<a href='../myAvatarSelect/avatarSelect.html'><img src="./roomJoinImg/back.png"
+												   style="position:fixed;margin-top:1px;width:70px;height:70px;left:15px;top:10px;"/></a>
+</body>

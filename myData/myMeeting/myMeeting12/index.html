@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json">
+    <style>
+	input[type=range]{display: inherit;width:129px;}
+	body{overflow:scroll;overflow-x:hidden;overflow-y:hidden;}
+	#video{ position:absolute;width:0px;height:0px;}
+    </style>
+    <title>WebVR大会</title>
+    <script>
+        CONFIG_PATH = "config.json";
+    </script>
+
+</head>
+<body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="../../avatar_tool.js"></script>
+
+<script src="../../myConfig.js"></script>
+<script src="../../mongo_tool_js/util.js"></script>
+<script src="../../mongo_tool_js/logManager.js"></script>
+<script src="../../mongo_tool_js/axios.min.js"></script>
+<script src="../../mongo_tool_js/myMongoDB.js"></script>
+
+<script src="../myUI.js"></script>
+<!--开始取消浏览器自带的鼠标右键检测-->
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+<body oncontextmenu="doNothing()">
+<!--完成取消浏览器自带的鼠标右键检测-->
+
+<iframe allow="autoplay" style="display: none"  src=""></iframe>
+<script>
+    window.onload = () => {// 修改
+        var ifm = document.querySelector("iframe");
+        if(ifm)ifm.src = "http://47.116.23.101:8068/public_video/music1.mp3";//"../../public_video/music1.mp3"
+    };
+</script>
+
+<video id="video" controls="controls" autoplay loop muted>
+        <source src="../../public_video/test1.mp4">
+</video>
+<div id="myVideoPanel" style="position:absolute;left:0px;top:0px;margin-top:0px;border:0px;width:1027px;height:641px;display:none;">
+    <video id="video2"  controls="controls" autoplay loop muted>
+        <source src="../../public_video/test1.mp4">
+    </video>
+</div>
+    <script src="../importEngineLibrary.js"></script><!-- 引擎依赖-->
+</body>
+</html>

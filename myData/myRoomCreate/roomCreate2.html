@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>会议场景的创建与管理</title>
+</head>
+<body>
+<script src="../UI_tool.js"></script>
+<script src="js/mybackground.js"></script>
+
+<script src="../myConfig.js"></script>
+<script src="../mongo_tool_js/util.js"></script>
+<script src="../mongo_tool_js/logManager.js"></script>
+<script src="../mongo_tool_js/axios.min.js"></script>
+
+<script src="../mongo_tool_js/myMongoDB.js"></script>
+<a href='../myAvatarSelect/avatarSelect.html'><img src="roomCreate/back.png"
+                                                   style="position:fixed;margin-top:1px;width:70px;height:70px;left:15px;top:10px;"/></a>
+<div id="mypanel" style="position:fixed;margin-top:1px;width:150px;height:100px;left:100px;top:50px;">
+    <script>
+        var oDiv = document.getElementById('mypanel');
+        oDiv.style.position = 'fixed';
+        oDiv.style.left = (window.innerWidth / 3.3 - 150) + 'px';
+        oDiv.style.top = (window.innerHeight / 4 - 100) + 'px';
+    </script>
+
+    <div style="position:absolute;margin-top:1px;width:150px;height:100px;left:0px;top:10px;">
+        <button id="btn0" style="font-size:25px;width:180px;height:55px">选择场景</button>
+    </div>
+    <div style="position:absolute;margin-top:1px;width:150px;height:100px;left:210px;top:0px;">
+        <button id="btn1" style="font-size:20px;width:180px;height:35px">我创建的房间</button>
+    </div>
+    <div id="btn_up_div"style="position:absolute;margin-top:1px;width:150px;height:100px;left:758px;top:30px;">
+        <button id="btn_up" style="font-size:7px;width:60px;height:25px">上一页</button>
+    </div>
+    <div style="position:absolute;width:300px;left:830px;top:23px;">
+        <font color="white"><h1 id="page_num"style="font-size:15px">第1页</h1></font>
+    </div>
+    <div id="btn_down_div"style="position:absolute;margin-top:1px;width:150px;height:100px;left:900px;top:30px;">
+        <button id="btn_down" style="font-size:5px;width:60px;height:25px">下一页</button>
+    </div>
+
+    <div style="position:absolute;left:0px;top:60px;">
+        <div id="container"></div>
+        <script src="./js/roomCreate2.js"></script>
+    </div>
+</div>
+
+<div id="myupdatePanel" style="position:absolute;left:380px;top:100px;margin-top:20px;border:5px solid #0ff;width:1027px;height:641px;background: #ffffff;display:none;">
+    <div style="text-align:center;">
+            <font size=5 color="#5f0000"><h1 id="my_id"></h1>
+                场景类型:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select id="myroom_type" name="myroom_type" style="font-size:20px;width:330px;height:38px">
+                    <option value="001">室内大型会场</option>
+                    <option value="002">室内双人会谈</option>
+                    <option value="003">室内非正式party</option>
+                    <option value="004">室外大型会议</option>
+                </select><br/><br/>
+                房间名称：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="myname" type="text" name="myname" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+                参会人数：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="mymember_num" type="text" name="mymember_num" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+                开始时间：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="mybegin_time" type="text" name="mybegin_time" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+                结束时间：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="myend_time" type="text" name="myend_time" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+                普通参会密码：<input id="mypassword1" type="text" name="mypassword1" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+                演讲者密码：&nbsp&nbsp&nbsp&nbsp<input id="mypassword2" type="text" name="mypassword2" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+                管理员密码：&nbsp&nbsp&nbsp&nbsp<input id="mypassword3" type="text" name="mypassword3" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+            </font>
+            <button type="button" style="font-size:20px;width:200px;height:40px"onclick=(function(){document.getElementById("myupdatePanel").style.display="none";})()>取消</button>
+            <button type="button"  style="font-size:20px;width:200px;height:40px"onclick=mymakeUpdate()>确定</button></br>
+
+    </div>
+</div>
+
+</body>
+</html>

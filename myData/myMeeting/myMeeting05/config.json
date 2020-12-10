@@ -1,0 +1,3361 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": true,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"item_id": 1595319640544,
+		"project": 1595319640544,
+		"name": "project",
+		"useKeyboard": true,
+		"useMouse": true,
+		"useTouch": true,
+		"useGamepads": false,
+		"i18nAssets": [],
+		"layers": {
+			"0": {
+				"name": "Default",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "TransparentFX",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Ignore Raycast",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "3",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "Water",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			},
+			"5": {
+				"name": "UI",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"6": {
+				"name": "6",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"7": {
+				"name": "7",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			}
+		}
+	},
+	"scenes": [
+		{
+			"name": "newScene 2",
+			"url": "1595328844122.json"
+		}
+	],
+	"assets": {
+		"1595319866040": {
+			"id": 1595319866040,
+			"name": "male_walk.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_walk.glb",
+				"size": 195316,
+				"path": "files/1595319640544/assets/1595319866040/male_walk.glb"
+			},
+			"region": ""
+		},
+		"1595319876854": {
+			"id": 1595319876854,
+			"name": "male_run.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_run.glb",
+				"size": 177668,
+				"path": "files/1595319640544/assets/1595319876854/male_run.glb"
+			},
+			"region": ""
+		},
+		"1595319889398": {
+			"id": 1595319889398,
+			"name": "female_walk.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "female_walk.glb",
+				"size": 199440,
+				"path": "files/1595319640544/assets/1595319889398/female_walk.glb"
+			},
+			"region": ""
+		},
+		"1595320847683": {
+			"id": 1595320847683,
+			"name": "chair.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 10,
+				"meshInstances": 0,
+				"nodes": 10,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "chair.gltf",
+				"size": 6708201,
+				"path": "files/1595319640544/assets/1595320847683/chair.gltf"
+			},
+			"region": ""
+		},
+		"1595320863193": {
+			"id": 1595320863193,
+			"name": "screen.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "screen.glb",
+				"size": 11944,
+				"path": "files/1595319640544/assets/1595320863193/screen.glb"
+			},
+			"region": ""
+		},
+		"1595320908102": {
+			"id": 1595320908102,
+			"name": "playerControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"playerControl": {
+						"attributesOrder": [
+							"speed",
+							"directionY_Ref",
+							"man1",
+							"own",
+							"table2",
+							"mylight"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": 1
+							},
+							"directionY_Ref": {
+								"title": "directionY_Ref",
+								"type": "entity",
+								"description": "directionY_Ref"
+							},
+							"man1": {
+								"title": "man1",
+								"type": "asset"
+							},
+							"table2": {
+								"title": "table2",
+								"type": "asset"
+							},
+							"mylight": {
+								"title": "mylight",
+								"type": "entity"
+							},
+							"own": {
+								"title": "own",
+								"type": "entity"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "playerControl.js",
+				"size": 18751,
+				"hash": "2811ac70dd3a11ea88b0cb9b66f37b0e",
+				"path": "files/playerControl.js"
+			},
+			"region": ""
+		},
+		"1595321305106": {
+			"id": 1595321305106,
+			"name": "main.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"main": {
+						"attributesOrder": [
+							"attribute",
+							"model",
+							"model2",
+							"model3",
+							"model4",
+							"model5",
+							"model6",
+							"room1",
+							"room2",
+							"table1",
+							"table2",
+							"tv",
+							"screen",
+							"man1",
+							"maletexture1",
+							"maletexture2",
+							"maletexture3",
+							"maletexture4",
+							"maletexture5",
+							"maletexture6",
+							"maletexture7",
+							"femaletexture1",
+							"femaletexture2",
+							"femaletexture3",
+							"femaletexture4",
+							"femaletexture5",
+							"femaletexture6",
+							"femaletexture7",
+							"femaletexture8",
+							"femaletexture9",
+							"femaletexture10",
+							"femaletexture11",
+							"femaletexture12",
+							"femaletexture13",
+							"femaletexture14",
+							"femaletexture15",
+							"femaletexture16",
+							"femaletexture17",
+							"femaletexture18",
+							"femaletexture19",
+							"femaletexture20",
+							"femaletexture21",
+							"femaletexture22",
+							"femaletexture23",
+							"femaletexture24",
+							"femaletexture25",
+							"femaletexture26",
+							"myfloor"
+						],
+						"attributes": {
+							"attribute": {
+								"title": "attribute",
+								"type": "string",
+								"default": "hello , world",
+								"description": "open attribute name attribute ; type - string ;"
+							},
+							"model": {
+								"title": "model",
+								"type": "asset"
+							},
+							"model2": {
+								"title": "model2",
+								"type": "asset"
+							},
+							"room1": {
+								"title": "room1",
+								"type": "asset"
+							},
+							"table1": {
+								"title": "table1",
+								"type": "asset"
+							},
+							"screen": {
+								"title": "screen",
+								"type": "asset"
+							},
+							"tv": {
+								"title": "tv",
+								"type": "asset"
+							},
+							"table2": {
+								"title": "table2",
+								"type": "asset"
+							},
+							"model3": {
+								"title": "model3",
+								"type": "asset"
+							},
+							"model4": {
+								"title": "model4",
+								"type": "asset"
+							},
+							"model5": {
+								"title": "model5",
+								"type": "asset"
+							},
+							"maletexture1": {
+								"title": "maletexture1",
+								"type": "asset"
+							},
+							"maletexture2": {
+								"title": "maletexture2",
+								"type": "asset"
+							},
+							"maletexture3": {
+								"title": "maletexture3",
+								"type": "asset"
+							},
+							"maletexture4": {
+								"title": "maletexture4",
+								"type": "asset"
+							},
+							"maletexture5": {
+								"title": "maletexture5",
+								"type": "asset"
+							},
+							"maletexture6": {
+								"title": "maletexture6",
+								"type": "asset"
+							},
+							"maletexture7": {
+								"title": "maletexture7",
+								"type": "asset"
+							},
+							"femaletexture1": {
+								"title": "femaletexture1",
+								"type": "asset"
+							},
+							"femaletexture2": {
+								"title": "femaletexture2",
+								"type": "asset"
+							},
+							"femaletexture3": {
+								"title": "femaletexture3",
+								"type": "asset"
+							},
+							"femaletexture4": {
+								"title": "femaletexture4",
+								"type": "asset"
+							},
+							"femaletexture5": {
+								"title": "femaletexture5",
+								"type": "asset"
+							},
+							"femaletexture6": {
+								"title": "femaletexture6",
+								"type": "asset"
+							},
+							"femaletexture7": {
+								"title": "femaletexture7",
+								"type": "asset"
+							},
+							"femaletexture8": {
+								"title": "femaletexture8",
+								"type": "asset"
+							},
+							"femaletexture9": {
+								"title": "femaletexture9",
+								"type": "asset"
+							},
+							"femaletexture10": {
+								"title": "femaletexture10",
+								"type": "asset"
+							},
+							"femaletexture11": {
+								"title": "femaletexture11",
+								"type": "asset"
+							},
+							"femaletexture12": {
+								"title": "femaletexture12",
+								"type": "asset"
+							},
+							"femaletexture13": {
+								"title": "femaletexture13",
+								"type": "asset"
+							},
+							"femaletexture14": {
+								"title": "femaletexture14",
+								"type": "asset"
+							},
+							"femaletexture15": {
+								"title": "femaletexture15",
+								"type": "asset"
+							},
+							"femaletexture16": {
+								"title": "femaletexture16",
+								"type": "asset"
+							},
+							"femaletexture17": {
+								"title": "femaletexture17",
+								"type": "asset"
+							},
+							"femaletexture19": {
+								"title": "femaletexture19",
+								"type": "asset"
+							},
+							"femaletexture20": {
+								"title": "femaletexture20",
+								"type": "asset"
+							},
+							"femaletexture21": {
+								"title": "femaletexture21",
+								"type": "asset"
+							},
+							"femaletexture22": {
+								"title": "femaletexture22",
+								"type": "asset"
+							},
+							"femaletexture23": {
+								"title": "femaletexture23",
+								"type": "asset"
+							},
+							"femaletexture24": {
+								"title": "femaletexture24",
+								"type": "asset"
+							},
+							"femaletexture25": {
+								"title": "femaletexture25",
+								"type": "asset"
+							},
+							"femaletexture26": {
+								"title": "femaletexture26",
+								"type": "asset"
+							},
+							"model6": {
+								"title": "model6",
+								"type": "asset"
+							},
+							"femaletexture18": {
+								"title": "femaletexture18",
+								"type": "asset"
+							},
+							"man1": {
+								"title": "man1",
+								"type": "entity"
+							},
+							"room2": {
+								"title": "room2",
+								"type": "asset"
+							},
+							"myfloor": {
+								"title": "myfloor",
+								"type": "asset"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "main.js",
+				"size": 28496,
+				"hash": "e8639990dd3811ea88b0cb9b66f37b0e",
+				"path": "files/main.js"
+			},
+			"region": ""
+		},
+		"1595381215907": {
+			"id": 1595381215907,
+			"name": "Room",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381240249": {
+			"id": 1595381240249,
+			"name": "Skybox",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381261638": {
+			"id": 1595381261638,
+			"name": "Roomshape",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381264503": {
+			"id": 1595381264503,
+			"name": "Meetingmesh",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381268317": {
+			"id": 1595381268317,
+			"name": "Avatar",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1595381329396": {
+			"id": 1595381329396,
+			"name": "posy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posy.jpg",
+				"size": 540436,
+				"hash": "b1dd3000cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329396/posy.jpg"
+			},
+			"region": ""
+		},
+		"1595381329401": {
+			"id": 1595381329401,
+			"name": "posz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posz.jpg",
+				"size": 866681,
+				"hash": "b1f2b3d0cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329401/posz.jpg"
+			},
+			"region": ""
+		},
+		"1595381329398": {
+			"id": 1595381329398,
+			"name": "posx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posx.jpg",
+				"size": 814015,
+				"hash": "b1f301f0cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329398/posx.jpg"
+			},
+			"region": ""
+		},
+		"1595381329393": {
+			"id": 1595381329393,
+			"name": "negx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negx.jpg",
+				"size": 933696,
+				"hash": "b1f5e820cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329393/negx.jpg"
+			},
+			"region": ""
+		},
+		"1595381329399": {
+			"id": 1595381329399,
+			"name": "negz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negz.jpg",
+				"size": 891860,
+				"hash": "b1f63640cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329399/negz.jpg"
+			},
+			"region": ""
+		},
+		"1595381329395": {
+			"id": 1595381329395,
+			"name": "negy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negy.jpg",
+				"size": 1102047,
+				"hash": "b1f94380cbba11ea9e880b0ab02c58d7",
+				"path": "files/1595319640544/assets/1595381329395/negy.jpg"
+			},
+			"region": ""
+		},
+		"1595381332634": {
+			"id": 1595381332634,
+			"name": "新建天空盒",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"textures": [
+					1595381329398,
+					1595381329393,
+					1595381329396,
+					1595381329395,
+					1595381329401,
+					1595381329399
+				],
+				"magFilter": 1,
+				"minFilter": 5,
+				"anisotropy": 1,
+				"name": ""
+			},
+			"type": "cubemap",
+			"file": null,
+			"region": ""
+		},
+		"1595381519117": {
+			"id": 1595381519117,
+			"name": "gallery.zip",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": null,
+			"type": "binary",
+			"file": null,
+			"region": ""
+		},
+		"1595381532512": {
+			"id": 1595381532512,
+			"name": "gallery.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 16,
+				"meshInstances": 0,
+				"nodes": 22,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "gallery.gltf",
+				"size": 739730,
+				"path": "files/1595319640544/assets/1595381532512/gallery.gltf"
+			},
+			"region": ""
+		},
+		"1595382005342": {
+			"id": 1595382005342,
+			"name": "male_run.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_run.glb",
+				"size": 177668,
+				"path": "files/1595319640544/assets/1595382005342/male_run.glb"
+			},
+			"region": ""
+		},
+		"1595382274666": {
+			"id": 1595382274666,
+			"name": "电视柜001 (13).gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 170,
+				"meshInstances": 0,
+				"nodes": 170,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "电视柜001 (13).gltf",
+				"size": 2117791,
+				"path": "files/1595319640544/assets/1595382274666/电视柜001 (13).gltf"
+			},
+			"region": ""
+		},
+		"1595404663770": {
+			"id": 1595404663770,
+			"name": "bathroomCloset.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "bathroomCloset.glb",
+				"size": 11944,
+				"path": "files/1595319640544/assets/1595404663770/bathroomCloset.glb"
+			},
+			"region": ""
+		},
+		"1595468531219": {
+			"id": 1595468531219,
+			"name": "lightControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"lightControl": {
+						"attributesOrder": []
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "lightControl.js",
+				"size": 2574,
+				"hash": "704eb310dc7d11ea88b0cb9b66f37b0e",
+				"path": "files/lightControl.js"
+			},
+			"region": ""
+		},
+		"1595495560974": {
+			"id": 1595495560974,
+			"name": "124-餐桌.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "124-餐桌.glb",
+				"size": 1853432,
+				"path": "files/1595319640544/assets/1595495560974/124-餐桌.glb"
+			},
+			"region": ""
+		},
+		"1595816028486": {
+			"id": 1595816028486,
+			"name": "chair.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "chair.glb",
+				"size": 1604132,
+				"path": "files/1595319640544/assets/1595816028486/chair.glb"
+			},
+			"region": ""
+		},
+		"1595833286092": {
+			"id": 1595833286092,
+			"name": "演讲桌.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "演讲桌.glb",
+				"size": 1651836,
+				"path": "files/1595319640544/assets/1595833286092/演讲桌.glb"
+			},
+			"region": ""
+		},
+		"1596006919025": {
+			"id": 1596006919025,
+			"name": "male_sit.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_sit.glb",
+				"size": 117240,
+				"path": "files/1595319640544/assets/1596006919025/male_sit.glb"
+			},
+			"region": ""
+		},
+		"1596011393829": {
+			"id": 1596011393829,
+			"name": "male_sitlook.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_sitlook.glb",
+				"size": 209040,
+				"path": "files/1595319640544/assets/1596011393829/male_sitlook.glb"
+			},
+			"region": ""
+		},
+		"1596011489805": {
+			"id": 1596011489805,
+			"name": "female_computer.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "female_computer.glb",
+				"size": 195020,
+				"path": "files/1595319640544/assets/1596011489805/female_computer.glb"
+			},
+			"region": ""
+		},
+		"1596101237211": {
+			"id": 1596101237211,
+			"name": "Texture",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1596105585940": {
+			"id": 1596105585940,
+			"name": "high.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 60,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "high.glb",
+				"size": 5875176,
+				"path": "files/1595319640544/assets/1596105585940/high.glb"
+			},
+			"region": ""
+		},
+		"1596535587298": {
+			"id": 1596535587298,
+			"name": "changecolor.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"changecolor": {
+						"attributesOrder": [
+							"attribute",
+							"man1"
+						],
+						"attributes": {
+							"attribute": {
+								"title": "attribute",
+								"type": "string",
+								"default": "hello , world",
+								"description": "open attribute name attribute ; type - string ;"
+							},
+							"man1": {
+								"title": "man1",
+								"type": "entity"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "changecolor.js",
+				"size": 1275,
+				"hash": "29078f70d63a11ea8b4f1d09842af7c0",
+				"path": "files/1595319640544/assets/1596535587298/changecolor.js"
+			},
+			"region": ""
+		},
+		"1596598688973": {
+			"id": 1596598688973,
+			"name": "Script",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1596791186804": {
+			"id": 1596791186804,
+			"name": "male",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1596791228649": {
+			"id": 1596791228649,
+			"name": "female",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1596791329571": {
+			"id": 1596791329571,
+			"name": "business05_m_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business05_m_25.jpg",
+				"size": 39365,
+				"hash": "9b4ec300d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329571/business05_m_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791329562": {
+			"id": 1596791329562,
+			"name": "business01_m_60.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business01_m_60.jpg",
+				"size": 47686,
+				"hash": "9b4f1120d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329562/business01_m_60.jpg"
+			},
+			"region": ""
+		},
+		"1596791329564": {
+			"id": 1596791329564,
+			"name": "business02_m_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business02_m_35.jpg",
+				"size": 43212,
+				"hash": "9b4f8650d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329564/business02_m_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791329569": {
+			"id": 1596791329569,
+			"name": "business06_m_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business06_m_25.jpg",
+				"size": 45498,
+				"hash": "9b4f3830d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329569/business06_m_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791329566": {
+			"id": 1596791329566,
+			"name": "business04_m_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business04_m_35.jpg",
+				"size": 41158,
+				"hash": "9b4fad60d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329566/business04_m_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791329565": {
+			"id": 1596791329565,
+			"name": "business03_m_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business03_m_35.jpg",
+				"size": 42172,
+				"hash": "9b4fd470d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329565/business03_m_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791329621": {
+			"id": 1596791329621,
+			"name": "business07_m_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "business07_m_25.jpg",
+				"size": 41695,
+				"hash": "9b54dd80d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791329621/business07_m_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346333": {
+			"id": 1596791346333,
+			"name": "casual01_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual01_f_20.jpg",
+				"size": 57493,
+				"hash": "a54d33f0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346333/casual01_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346344": {
+			"id": 1596791346344,
+			"name": "casual07_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual07_f_20.jpg",
+				"size": 42755,
+				"hash": "a54e1e50d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346344/casual07_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346334": {
+			"id": 1596791346334,
+			"name": "casual02_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual02_f_25.jpg",
+				"size": 53331,
+				"hash": "a54f08b0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346334/casual02_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346336": {
+			"id": 1596791346336,
+			"name": "casual03_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual03_f_25.jpg",
+				"size": 52910,
+				"hash": "a54f2fc0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346336/casual03_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346342": {
+			"id": 1596791346342,
+			"name": "casual04_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual04_f_30.jpg",
+				"size": 54843,
+				"hash": "a54f56d0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346342/casual04_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346345": {
+			"id": 1596791346345,
+			"name": "casual05_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual05_f_25.jpg",
+				"size": 46162,
+				"hash": "a54fa4f0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346345/casual05_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346384": {
+			"id": 1596791346384,
+			"name": "casual08_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual08_f_25.jpg",
+				"size": 45264,
+				"hash": "a5532760d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346384/casual08_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346388": {
+			"id": 1596791346388,
+			"name": "casual09_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual09_f_25.jpg",
+				"size": 60078,
+				"hash": "a5537580d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346388/casual09_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346399": {
+			"id": 1596791346399,
+			"name": "casual11_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual11_f_30.jpg",
+				"size": 48987,
+				"hash": "a55682c1d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346399/casual11_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346398": {
+			"id": 1596791346398,
+			"name": "casual10_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual10_f_30.jpg",
+				"size": 48468,
+				"hash": "a55682c0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346398/casual10_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346408": {
+			"id": 1596791346408,
+			"name": "casual12_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual12_f_30.jpg",
+				"size": 49872,
+				"hash": "a556f7f0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346408/casual12_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346412": {
+			"id": 1596791346412,
+			"name": "casual13_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual13_f_30.jpg",
+				"size": 44394,
+				"hash": "a5574610d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346412/casual13_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346425": {
+			"id": 1596791346425,
+			"name": "casual14_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual14_f_25.jpg",
+				"size": 46633,
+				"hash": "a55ac880d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346425/casual14_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346427": {
+			"id": 1596791346427,
+			"name": "casual15_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual15_f_20.jpg",
+				"size": 50526,
+				"hash": "a55b16a0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346427/casual15_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346452": {
+			"id": 1596791346452,
+			"name": "casual16_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual16_f_30.jpg",
+				"size": 54133,
+				"hash": "a55dd5c0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346452/casual16_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346453": {
+			"id": 1596791346453,
+			"name": "casual17_f_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual17_f_35.jpg",
+				"size": 50503,
+				"hash": "a55e7200d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346453/casual17_f_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791346458": {
+			"id": 1596791346458,
+			"name": "casual19_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual19_f_20.jpg",
+				"size": 42442,
+				"hash": "a55ff8a0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346458/casual19_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346463": {
+			"id": 1596791346463,
+			"name": "casual18_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual18_f_30.jpg",
+				"size": 55588,
+				"hash": "a5621b80d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346463/casual18_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346484": {
+			"id": 1596791346484,
+			"name": "casual20_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual20_f_25.jpg",
+				"size": 44877,
+				"hash": "a5646570d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346484/casual20_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346483": {
+			"id": 1596791346483,
+			"name": "casual21_f_30.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual21_f_30.jpg",
+				"size": 45108,
+				"hash": "a5643e60d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346483/casual21_f_30.jpg"
+			},
+			"region": ""
+		},
+		"1596791346500": {
+			"id": 1596791346500,
+			"name": "casual22_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual22_f_25.jpg",
+				"size": 48771,
+				"hash": "a565c500d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346500/casual22_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791346505": {
+			"id": 1596791346505,
+			"name": "casual23_f_35.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual23_f_35.jpg",
+				"size": 53795,
+				"hash": "a566d670d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346505/casual23_f_35.jpg"
+			},
+			"region": ""
+		},
+		"1596791346517": {
+			"id": 1596791346517,
+			"name": "casual24_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual24_f_20.jpg",
+				"size": 50591,
+				"hash": "a5692060d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346517/casual24_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346532": {
+			"id": 1596791346532,
+			"name": "casual25_f_20.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual25_f_20.jpg",
+				"size": 41186,
+				"hash": "a56a58e0d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346532/casual25_f_20.jpg"
+			},
+			"region": ""
+		},
+		"1596791346541": {
+			"id": 1596791346541,
+			"name": "casual26_f_25.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "casual26_f_25.jpg",
+				"size": 32722,
+				"hash": "a56bb870d88d11eaa019371590ebc031",
+				"path": "../../public_3Dmodel/map/1596791346541/casual26_f_25.jpg"
+			},
+			"region": ""
+		},
+		"1596791383780": {
+			"id": 1596791383780,
+			"name": "male",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1596791394145": {
+			"id": 1596791394145,
+			"name": "female",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1596791456831": {
+			"id": 1596791456831,
+			"name": "male_computer.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_computer.glb",
+				"size": 147580,
+				"path": "files/1595319640544/assets/1596791456831/male_computer.glb"
+			},
+			"region": ""
+		},
+		"1596791456833": {
+			"id": 1596791456833,
+			"name": "male_sit.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_sit.glb",
+				"size": 117240,
+				"path": "files/1595319640544/assets/1596791456833/male_sit.glb"
+			},
+			"region": ""
+		},
+		"1596791456834": {
+			"id": 1596791456834,
+			"name": "male_sitlook.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "male_sitlook.glb",
+				"size": 209040,
+				"path": "files/1595319640544/assets/1596791456834/male_sitlook.glb"
+			},
+			"region": ""
+		},
+		"1596791469217": {
+			"id": 1596791469217,
+			"name": "female_computer.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 35,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "female_computer.glb",
+				"size": 195020,
+				"path": "files/1595319640544/assets/1596791469217/female_computer.glb"
+			},
+			"region": ""
+		},
+		"1597111663936": {
+			"id": 1597111663936,
+			"name": "CBT.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 677,
+				"meshInstances": 0,
+				"nodes": 677,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "CBT.glb",
+				"size": 11861284,
+				"path": "files/1595319640544/assets/1597111663936/CBT.glb"
+			},
+			"region": ""
+		},
+		"1597194319500": {
+			"id": 1597194319500,
+			"name": "low.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1222,
+				"meshInstances": 0,
+				"nodes": 1386,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "low.glb",
+				"size": 16557128,
+				"path": "files/1595319640544/assets/1597194319500/low.glb"
+			},
+			"region": ""
+		},
+		"1597282928261": {
+			"id": 1597282928261,
+			"name": "Nodeman8.13.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 43,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Nodeman8.13.glb",
+				"size": 6490656,
+				"path": "files/1595319640544/assets/1597282928261/Nodeman8.13.glb"
+			},
+			"region": ""
+		},
+		"1597284564707": {
+			"id": 1597284564707,
+			"name": "SquareMeeting.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 10,
+				"meshInstances": 0,
+				"nodes": 11,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "SquareMeeting.glb",
+				"size": 3024788,
+				"path": "files/1595319640544/assets/1597284564707/SquareMeeting.glb"
+			},
+			"region": ""
+		},
+		"1597286978714": {
+			"id": 1597286978714,
+			"name": "长白厅.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 665,
+				"meshInstances": 0,
+				"nodes": 667,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "长白厅.glb",
+				"size": 23296632,
+				"path": "files/1595319640544/assets/1597286978714/长白厅.glb"
+			},
+			"region": ""
+		},
+		"1597299338963": {
+			"id": 1597299338963,
+			"name": "Nodeman2(1).glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 43,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Nodeman2(1).glb",
+				"size": 2491496,
+				"path": "files/1595319640544/assets/1597299338963/Nodeman2(1).glb"
+			},
+			"region": ""
+		},
+		"1597301229881": {
+			"id": 1597301229881,
+			"name": "chair2.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "chair2.glb",
+				"size": 922480,
+				"path": "files/1595319640544/assets/1597301229881/chair2.glb"
+			},
+			"region": ""
+		},
+		"1597309390743": {
+			"id": 1597309390743,
+			"name": "meetingroom2.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 17,
+				"meshInstances": 0,
+				"nodes": 18,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "meetingroom2.glb",
+				"size": 64859044,
+				"path": "files/1595319640544/assets/1597309390743/meetingroom2.glb"
+			},
+			"region": ""
+		},
+		"1597309410440": {
+			"id": 1597309410440,
+			"name": "meetingroom2.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 17,
+				"meshInstances": 0,
+				"nodes": 18,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "meetingroom2.glb",
+				"size": 64859044,
+				"path": "files/1595319640544/assets/1597309410440/meetingroom2.glb"
+			},
+			"region": ""
+		},
+		"1597311286178": {
+			"id": 1597311286178,
+			"name": "scene.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 6,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "scene.gltf",
+				"size": 14037538,
+				"path": "files/1595319640544/assets/1597311286178/scene.gltf"
+			},
+			"region": ""
+		},
+		"1597311667699": {
+			"id": 1597311667699,
+			"name": "Freeman(1).glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 43,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Freeman(1).glb",
+				"size": 5087316,
+				"path": "files/1595319640544/assets/1597311667699/Freeman(1).glb"
+			},
+			"region": ""
+		},
+		"1597311691099": {
+			"id": 1597311691099,
+			"name": "Freeman(2).glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 43,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Freeman(2).glb",
+				"size": 5087316,
+				"path": "files/1595319640544/assets/1597311691099/Freeman(2).glb"
+			},
+			"region": ""
+		}
+	}
+}

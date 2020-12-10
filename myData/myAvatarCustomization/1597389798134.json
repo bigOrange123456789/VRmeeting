@@ -1,0 +1,324 @@
+{
+	"settings": {
+		"physics": {
+			"gravity": [
+				0,
+				-0.98,
+				0
+			]
+		},
+		"render": {
+			"post_process": {
+				"overrides": {
+					"Bloom": {
+						"enabled": false,
+						"strength": 0.5,
+						"kernelSize": 5,
+						"sigma": 0.5,
+						"resolution": 512
+					},
+					"AmbientOcclusion": {
+						"enabled": false,
+						"kernelRadius": 4,
+						"kernelSize": 4,
+						"minDistance": 0.001,
+						"maxDistance": 0.005
+					},
+					"Highlights": {
+						"enabled": false,
+						"shadows": [
+							255,
+							255,
+							255,
+							177.5
+						],
+						"midtones": [
+							255,
+							255,
+							255,
+							177.5
+						],
+						"highlights": [
+							255,
+							255,
+							255,
+							177.5
+						],
+						"shadows_pos": [
+							97,
+							121,
+							100
+						],
+						"midtones_pos": [
+							97,
+							121,
+							100
+						],
+						"highlights_pos": [
+							97,
+							121,
+							100
+						],
+						"amount": 1
+					},
+					"Vignette": {
+						"enabled": false,
+						"offset": 0.8,
+						"darkness": 0.8
+					},
+					"ToneMapping": {
+						"enabled": false,
+						"exposure": 1000,
+						"whitePoint": 1
+					},
+					"Gamma": {
+						"enabled": false,
+						"brightness": 0,
+						"contrast": 1,
+						"gamma": 1,
+						"coeffs": [
+							0.5,
+							0.5,
+							0.5
+						]
+					},
+					"Saturation": {
+						"enabled": false,
+						"hue": 0,
+						"saturation": 1,
+						"value": 1
+					},
+					"Exposure": {
+						"enabled": false,
+						"adaptive": true
+					}
+				},
+				"enabled": true
+			},
+			"fog_end": 1000,
+			"fog_start": 1,
+			"global_ambient": [
+				0.2,
+				0.2,
+				0.2
+			],
+			"ambientLightIntensity": 1,
+			"fog_color": [
+				0,
+				0,
+				0
+			],
+			"fog": "none",
+			"fog_density": 0.01,
+			"gamma_correction": 1,
+			"tonemapping": 0,
+			"exposure": 1,
+			"skybox": 1597820629332,
+			"skybox_color": [
+				0,
+				0,
+				0
+			],
+			"skyboxIntensity": 0.8,
+			"skyboxMip": 0,
+			"lightmap": [],
+			"lightmapSizeMultiplier": 16,
+			"lightmapMaxResolution": 2048,
+			"lightmapMode": 1,
+			"toneMappingExposure": 1,
+			"lightmapUV2": {}
+		}
+	},
+	"id": 1597389798134,
+	"scene": 1597389798134,
+	"item_id": 1597389798134,
+	"project_id": 1597389798130,
+	"branch_id": "",
+	"checkpoint_id": "",
+	"name": "newScene",
+	"uniqueId": 1597389798134,
+	"_id": "5f363be60c6b200640d8f08f",
+	"entities": {
+		"27213f00-8054-4d3f-aaf6-0fd83b355ad8": {
+			"components": {
+				"transform": {
+					"scale": [
+						1,
+						1,
+						1
+					],
+					"position": [
+						0,
+						0,
+						0
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					]
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"Design"
+					],
+					"scripts": {
+						"Design": {
+							"enabled": true,
+							"attributes": {
+								"malemodel": 1597389977525,
+								"femalemodel": 2597389977525,
+								"maletexture1": 1597658418328,
+								"maletexture2": 1597658110291,
+								"maletexture3": 1597658117326,
+								"maletexture4": 1597658123066,
+								"maletexture5": 1597658504266,
+								"maletexture6": 1597658586365,
+								"maletexture7": 1597655095751,
+								"femaletexture1": 1597655095765,
+								"femaletexture2": 1597655095761,
+								"femaletexture3": 1597655095754,
+								"femaletexture4": 1597655095774,
+								"femaletexture5": 1597658133047,
+								"femaletexture6": 1597655095786,
+								"femaletexture7": 1597658141129,
+								"femaletexture8": 1597658610537,
+								"femaletexture9": 1597658149463,
+								"femaletexture10": 1597658629424,
+								"femaletexture11": 1597655095848,
+								"femaletexture12": 1597658160889,
+								"femaletexture13": 1597658169900,
+								"femaletexture14": 1597658177687,
+								"femaletexture15": 1597658639175,
+								"femaletexture16": 1597658186779,
+								"femaletexture17": 1597658648973,
+								"femaletexture18": 1597655095935,
+								"femaletexture19": 1597655095942,
+								"femaletexture20": 1597658658977,
+								"femaletexture21": 1597658196445,
+								"femaletexture22": 1597658210480,
+								"femaletexture23": 1597658218154,
+								"femaletexture24": 1597658672304,
+								"femaletexture25": 1597658227165
+							}
+						}
+					}
+				}
+			},
+			"name": "Root",
+			"parent": null,
+			"resource_id": "27213f00-8054-4d3f-aaf6-0fd83b355ad8",
+			"tags": [],
+			"layers": [
+				0
+			],
+			"enabled": true,
+			"children": [
+				"06b586e0-964d-48f8-b2dd-c7be499877d6",
+				"1065789e-f47b-4b68-94c2-42458a9b7f33"
+			]
+		},
+		"06b586e0-964d-48f8-b2dd-c7be499877d6": {
+			"name": "相机",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "06b586e0-964d-48f8-b2dd-c7be499877d6",
+			"parent": "27213f00-8054-4d3f-aaf6-0fd83b355ad8",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"Camera": {
+					"enabled": true,
+					"cullingMask": [
+						1,
+						1,
+						1,
+						1
+					],
+					"Projection": "Perspective",
+					"field_of_view": 45,
+					"frustumSize": 0,
+					"nearClipPlane": 0.3,
+					"farClipPlane": 1000,
+					"aspect": 2,
+					"targetTexture": null
+				},
+				"transform": {
+					"position": [
+						0,
+						1,
+						5
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		},
+		"1065789e-f47b-4b68-94c2-42458a9b7f33": {
+			"name": "点光源",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "1065789e-f47b-4b68-94c2-42458a9b7f33",
+			"parent": "27213f00-8054-4d3f-aaf6-0fd83b355ad8",
+			"children": [],
+			"layers": [
+				0
+			],
+			"components": {
+				"Light": {
+					"enabled": true,
+					"type": "Point",
+					"color": [
+						1,
+						1,
+						1
+					],
+					"cullingMask": [
+						1,
+						1,
+						1,
+						1
+					],
+					"intensity": 1,
+					"castShadow": false,
+					"shadowDistance": 50,
+					"mapSize": 1024,
+					"bias": 0,
+					"range": 50,
+					"spotAngle": 40,
+					"mode": "Realtime"
+				},
+				"transform": {
+					"position": [
+						0,
+						1,
+						5
+					],
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		}
+	},
+	"created": "2020-08-14T07:23:18.136Z",
+	"modified": "2020-08-17T10:06:28.353Z"
+}

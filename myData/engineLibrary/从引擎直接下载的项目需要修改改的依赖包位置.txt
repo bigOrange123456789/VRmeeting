@@ -1,0 +1,27 @@
+1.为了使得引擎中人物的骨骼可以不同
+#位置：build文件夹中的Web3DEngine.js
+#1326：中的skeleton.boneInverses
+let cloneSkeleton = new THREE.Skeleton(orderedCloneBones, skeleton.boneInverses);
+#1326：变为boneArray
+let boneArray=[];
+            for(let i=0;i<skeleton.boneInverses.length;i++){
+                let copyBoneInverses=new THREE.Matrix4().copy(skeleton.boneInverses[i]);
+                boneArray.push(copyBoneInverses);
+            }
+let cloneSkeleton = new THREE.Skeleton(orderedCloneBones, boneArray);
+2.使得引擎按照json中的资源真正按照json中的path访问
+位置：start.js
+(1)
+#59更改前 assetsAdd(assetsData[assetId], onProgress); 
+->更改后   assetsAdd(assetsData[assetId], onProgress,assetsData);
+#63更改前 function assetsAdd (asset, callback) 
+->更改后   function assetsAdd (asset, callback,assetsData)
+#74更改前
+assetJson.file.url[i] = "files/assets/" + texAsset.id + "/" + texAsset.file.filename;
+#74更改后
+assetJson.file.url[i] =assetsData[assetJson.data.textures[i]].file.path;
+(2)
+#84更改前
+assetJson.file.url = "files/assets/" + assetJson.id + "/" + assetJson.file.filename;
+#84更改后
+assetJson.file.url =assetJson.file.path;

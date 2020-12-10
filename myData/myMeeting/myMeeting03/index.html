@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>WebVR会议</title>
+    <script>
+        CONFIG_PATH = "config.json";
+    </script>
+
+</head>
+<body>
+<!--开始取消浏览器自带的鼠标右键检测-->
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+<body oncontextmenu="doNothing()">
+<!--完成取消浏览器自带的鼠标右键检测-->
+<script src="../../myConfig.js"></script>
+<script src="../../mongo_tool_js/util.js"></script>
+<script src="../../mongo_tool_js/logManager.js"></script>
+<script src="../../mongo_tool_js/axios.min.js"></script>
+<script src="../../mongo_tool_js/myMongoDB.js"></script>
+
+   <script src="../myUI.js"></script>
+
+
+  <script src="../importEngineLibrary.js"></script><!-- 引擎依赖-->
+</body>
+</html>

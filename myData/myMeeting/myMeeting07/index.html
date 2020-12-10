@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        #video{
+            position:absolute;
+            width:0;
+            height:0;
+        }
+    </style>
+    <title>appStart</title>
+    <script>
+        CONFIG_PATH = "config.json";
+    </script>
+
+</head>
+<body>
+<!--开始取消浏览器自带的鼠标右键检测-->
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+<body oncontextmenu="doNothing()">
+<!--完成取消浏览器自带的鼠标右键检测-->
+    <video id="video" autoplay loop muted>
+        <source src="../../public_video/test1.mp4">
+    </video>
+    <script src="../importEngineLibrary.js"></script><!-- 引擎依赖-->
+</body>
+</html>

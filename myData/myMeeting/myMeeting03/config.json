@@ -1,0 +1,886 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": true,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"item_id": 1585641790562,
+		"project": 1585641790562,
+		"name": "project",
+		"useKeyboard": true,
+		"useMouse": true,
+		"useTouch": true,
+		"useGamepads": false,
+		"i18nAssets": [],
+		"layers": {
+			"0": {
+				"name": "Default",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "TransparentFX",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Ignore Raycast",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "3",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "Water",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			},
+			"5": {
+				"name": "UI",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"6": {
+				"name": "6",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"7": {
+				"name": "7",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			}
+		}
+	},
+	"scenes": [
+		{
+			"name": "playermove",
+			"url": "1585723323368.json"
+		}
+	],
+	"assets": {
+		"1585641885005": {
+			"id": 1585641885005,
+			"name": "room.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 63,
+				"meshInstances": 0,
+				"nodes": 116,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "room.gltf",
+				"size": 163574,
+				"path": "files/1585641790562/assets/1585641885005/room.gltf"
+			},
+			"region": ""
+		},
+		"1585641914247": {
+			"id": 1585641914247,
+			"name": "model",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1585641970594": {
+			"id": 1585641970594,
+			"name": "texutre",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		},
+		"1585642285308": {
+			"id": 1585642285308,
+			"name": "posz.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posz.jpg",
+				"size": 866681,
+				"hash": "371fa140732711eaaa6c7d169d0b312a",
+				"path": "files/1585641790562/assets/1585642285308/posz.jpg"
+			},
+			"region": ""
+		},
+		"1585642317538": {
+			"id": 1585642317538,
+			"name": "posy.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posy.jpg",
+				"size": 540436,
+				"hash": "4a50a7a0732711eaaa6c7d169d0b312a",
+				"path": "files/1585641790562/assets/1585642317538/posy.jpg"
+			},
+			"region": ""
+		},
+		"1585642570297": {
+			"id": 1585642570297,
+			"name": "posx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posx.jpg",
+				"size": 1434138,
+				"hash": "74cc207087b011ea826adbf83c9dd57d",
+				"path": "files/1585641790562/assets/1585642570297/posx.jpg"
+			},
+			"region": ""
+		},
+		"1585642573211": {
+			"id": 1585642573211,
+			"name": "negx.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "negx.jpg",
+				"size": 933696,
+				"hash": "e2ca9ef0732711eaaa6c7d169d0b312a",
+				"path": "files/1585641790562/assets/1585642573211/negx.jpg"
+			},
+			"region": ""
+		},
+		"1585651271805": {
+			"id": 1585651271805,
+			"name": "新建天空盒",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"textures": [
+					1587902888953,
+					1587902888953,
+					1585642317538,
+					1585642317538,
+					1585642285308,
+					1585642285308
+				],
+				"magFilter": 1,
+				"minFilter": 5,
+				"anisotropy": 1,
+				"name": ""
+			},
+			"type": "cubemap",
+			"file": null,
+			"region": ""
+		},
+		"1585707932786": {
+			"id": 1585707932786,
+			"name": "Cube.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 1,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "Cube.glb",
+				"size": 2776,
+				"path": "files/1585641790562/assets/1585707932786/Cube.glb"
+			},
+			"region": ""
+		},
+		"1585712576955": {
+			"id": 1585712576955,
+			"name": "rail1.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 12,
+				"meshInstances": 0,
+				"nodes": 15,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": null
+					}
+				],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": "616d1f2073ce11eaaa6c7d169d0b312a",
+				"filename": "rail1.glb",
+				"size": 710316,
+				"path": "files/1585641790562/assets/1585712576955/rail1.glb"
+			},
+			"region": ""
+		},
+		"1585714666353": {
+			"id": 1585714666353,
+			"name": "rail2.glb",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 5,
+				"meshInstances": 0,
+				"nodes": 9,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "rail2.glb",
+				"size": 519040,
+				"path": "files/1585641790562/assets/1585714666353/rail2.glb"
+			},
+			"region": ""
+		},
+		"1585723524334": {
+			"id": 1585723524334,
+			"name": "playerControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"playerControl": {
+						"attributesOrder": [
+							"speed",
+							"directionY_Ref"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": 1
+							},
+							"directionY_Ref": {
+								"title": "directionY_Ref",
+								"type": "entity",
+								"description": "directionY_Ref"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "playerControl.js",
+				"size": 5285,
+				"hash": "bf939770bb7511eaa4bf776c02a5cd81",
+				"path": "files/1585641790562/assets/1585723524334/playerControl.js"
+			},
+			"region": ""
+		},
+		"1585728148159": {
+			"id": 1585728148159,
+			"name": "scene.gltf",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 0,
+				"nodes": 6,
+				"skins": 0,
+				"vertices": 1136,
+				"triangles": 1532,
+				"attributes": {
+					"position": 2,
+					"normal": 2,
+					"texCoord0": 2,
+					"color": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": null,
+				"filename": "scene.gltf",
+				"size": 4827,
+				"path": "files/1585641790562/assets/1585728148159/scene.gltf"
+			},
+			"region": ""
+		},
+		"1585746235781": {
+			"id": 1585746235781,
+			"name": "rotation.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"rotation": {
+						"attributesOrder": [
+							"speed"
+						],
+						"attributes": {
+							"speed": {
+								"title": "speed",
+								"type": "number",
+								"default": "hello , world",
+								"description": "open attribute name attribute ; type - string ;"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "rotation.js",
+				"size": 592,
+				"hash": "aa83af70741a11ea9f1e75bf5143d9c8",
+				"path": "files/1585641790562/assets/1585746235781/rotation.js"
+			},
+			"region": ""
+		},
+		"1587900680339": {
+			"id": 1587900680339,
+			"name": "floor.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "floor.jpg",
+				"size": 663127,
+				"hash": "7381d0b087b111ea826adbf83c9dd57d",
+				"path": "files/1585641790562/assets/1587900680339/floor.jpg"
+			},
+			"region": ""
+		},
+		"1587902888953": {
+			"id": 1587902888953,
+			"name": "posx1.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "posx1.jpg",
+				"size": 1434138,
+				"hash": "980985e087b611ea826adbf83c9dd57d",
+				"path": "files/1585641790562/assets/1587902888953/posx1.jpg"
+			},
+			"region": ""
+		},
+		"1587902991235": {
+			"id": 1587902991235,
+			"name": "新建天空盒",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"textures": [
+					1587903212052,
+					1587902888953,
+					1585642317538,
+					1585642317538,
+					1585642285308,
+					1585642285308
+				],
+				"magFilter": 1,
+				"minFilter": 5,
+				"anisotropy": 1,
+				"name": ""
+			},
+			"type": "cubemap",
+			"file": null,
+			"region": ""
+		},
+		"1587903193182": {
+			"id": 1587903193182,
+			"name": "1.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "1.jpg",
+				"size": 550180,
+				"hash": "4d35fc5087b711ea826adbf83c9dd57d",
+				"path": "files/1585641790562/assets/1587903193182/1.jpg"
+			},
+			"region": ""
+		},
+		"1587903212052": {
+			"id": 1587903212052,
+			"name": "2.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "2.jpg",
+				"size": 511723,
+				"hash": "5874dc8087b711ea826adbf83c9dd57d",
+				"path": "files/1585641790562/assets/1587903212052/2.jpg"
+			},
+			"region": ""
+		},
+		"1593511448914": {
+			"id": 1593511448914,
+			"name": "lightControl.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"lightControl": {
+						"attributesOrder": []
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "lightControl.js",
+				"size": 2520,
+				"hash": "48d0e980bb7511eaa4bf776c02a5cd81",
+				"path": "files/1585641790562/assets/1593511448914/lightControl.js"
+			},
+			"region": ""
+		},
+		"1594347071136": {
+			"id": 1594347071136,
+			"name": "Avatar_Woman_Biker_Jeans_AO.jpg",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false,
+					"etc2": false
+				},
+				"format": "jpg",
+				"type": "TrueColor",
+				"width": 512,
+				"height": 512,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 4,
+				"rgbm": false,
+				"mipmaps": false
+			},
+			"type": "texture",
+			"file": {
+				"filename": "Avatar_Woman_Biker_Jeans_AO.jpg",
+				"size": 298241,
+				"hash": "9fc7ce00c25211ea81917b1c1a027704",
+				"path": "files/1585641790562/assets/1594347071136/Avatar_Woman_Biker_Jeans_AO.jpg"
+			},
+			"region": ""
+		},
+		"1595139252069": {
+			"id": 1595139252069,
+			"name": "test.js",
+			"revision": null,
+			"tags": [],
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"test": {
+						"attributesOrder": [
+							"attribute"
+						],
+						"attributes": {
+							"attribute": {
+								"title": "attribute",
+								"type": "string",
+								"default": "hello , world",
+								"description": "open attribute name attribute ; type - string ;"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "test.js",
+				"size": 1247,
+				"hash": "106083b0c98711eaa479c33bb04da2ea",
+				"path": "files/1585641790562/assets/1595139252069/test.js"
+			},
+			"region": ""
+		},
+		"1595211385270": {
+			"id": 1595211385270,
+			"name": "room",
+			"revision": null,
+			"tags": [],
+			"preload": false,
+			"meta": null,
+			"data": null,
+			"type": "folder",
+			"file": null,
+			"region": ""
+		}
+	}
+}

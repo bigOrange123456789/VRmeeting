@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>个人信息</title>
+    <link href="favicon.ico" rel="shortcut icon" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/common.css" rel="stylesheet" />
+    <link href="./css/info.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <!-- 头部开始 -->
+        <div class="header">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/logo.png" class="img-responsive">
+                    </a>
+                </div>
+                <div class="user-logout">
+                    <span class="logout-span">注销</span>
+                </div>
+            </div>
+        </div>
+        <!-- 头部结束 -->
+    </div>
+
+    <!-- 个人信息开始 -->
+    <div class="main">
+        <ul class="person">
+            <!-- 头像开始 -->
+            <li class="person-li">
+                <h3>头像照片</h3>
+                <ul class="person-list">
+                    <li class="person-list-li">
+                        <span>当前头像:</span>
+                        <div class="person-list-img">
+                            <img class="show-avatar" src="">
+                            <div class="instead">
+                                <input class="info-input input-avatar" type="file" />
+                                <p class="upload-avatar">上传头像</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!-- 头像结束 -->
+            <!-- 基本资料开始 -->
+            <li class="person-li">
+                <h3>基本资料</h3>
+                <ul class="person-list">
+                    <li class="person-list-li">
+                        <span>生日:</span>
+                        <input class="info-input input-birthday" type="date" />
+                    </li>
+                    <li class="person-list-li">
+                        <span>爱好:</span>
+                        <input class="info-input input-hobby" type="text" />
+                    </li>
+                    <li class="person-list-li">
+                        <span>籍贯:</span>
+                        <input class="info-input input-birthplace" type="text" />
+                    </li>
+                    <li class="person-list-li">
+                        <button class="info-btn modify-info-btn">确认修改</button>
+                    </li>
+                </ul>
+            </li>
+            <!-- 基本资料结束 -->
+            <!-- 修改密码开始 -->
+            <li class="person-li">
+                <h3>修改密码</h3>
+                <ul class="person-list">
+                    <li class="person-list-li">
+                        <span>原密码:</span>
+                        <input class="info-input input-password-old" type="password" />
+                    </li>
+                    <li class="person-list-li">
+                        <span>新密码:</span>
+                        <input class="info-input input-password-new" type="text" />
+                    </li>
+                    <li class="person-list-li">
+                        <button class="info-btn modify-password-btn">确认修改</button>
+                    </li>
+                </ul>
+            </li>
+            <!-- 修改密码结束 -->
+        </ul>
+    </div>
+    <!-- 个人信息結束 -->
+    <script src="../myConfig.js"></script>
+    <script src="../mongo_tool_js/axios.min.js"></script>
+    <script src="../mongo_tool_js/util.js"></script>
+    <script src="../mongo_tool_js/logManager.js"></script>
+    <script src="../mongo_tool_js/info.js"></script>
+</body>
+
+</html>

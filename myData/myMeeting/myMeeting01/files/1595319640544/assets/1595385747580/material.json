@@ -1,0 +1,204 @@
+{
+    "data": {
+        "shader": "blinn",
+        "ambient": [
+            0,
+            0,
+            0
+        ],
+        "ambientTint": false,
+        "aoMap": null,
+        "aoMapChannel": "r",
+        "aoMapUv": 1,
+        "aoMapTiling": [
+            1,
+            1
+        ],
+        "aoMapOffset": [
+            0,
+            0
+        ],
+        "aoVertexColor": false,
+        "aoVertexColorChannel": "rgb",
+        "diffuse": [
+            0.4666666666666667,
+            0.3215686274509804,
+            0.03137254901960784
+        ],
+        "diffuseMap": null,
+        "diffuseMapChannel": "r",
+        "diffuseMapUv": 0,
+        "diffuseMapTiling": [
+            1,
+            1
+        ],
+        "diffuseMapOffset": [
+            0,
+            0
+        ],
+        "diffuseMapTint": false,
+        "diffuseVertexColorChannel": "r",
+        "diffuseVertexColor": false,
+        "specular": [
+            0.23,
+            0.23,
+            0.23
+        ],
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMap": null,
+        "specularMapTiling": [
+            1,
+            1
+        ],
+        "specularMapOffset": [
+            0,
+            0
+        ],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "specularTint": true,
+        "specularVertexColor": true,
+        "specularVertexColorChannel": "rgb",
+        "occludeSpecular": 0,
+        "useMetalness": true,
+        "metalnessMap": null,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [
+            1,
+            1
+        ],
+        "metalnessMapOffset": [
+            0,
+            0
+        ],
+        "metalnessMapTint": false,
+        "metalness": 0,
+        "metalnessVertexColorChannel": "rgb",
+        "conserveEnergy": true,
+        "shininess": 100,
+        "glossMap": null,
+        "glossMapVertexColor": false,
+        "glossVertexColorChannel": "rgb",
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [
+            1,
+            1
+        ],
+        "glossMapOffset": [
+            0,
+            0
+        ],
+        "fresnelModel": 2,
+        "emissive": [
+            0,
+            0,
+            0
+        ],
+        "emissiveMap": null,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [
+            1,
+            1
+        ],
+        "emissiveMapOffset": [
+            0,
+            0
+        ],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 0.07,
+        "emissiveVertexColor": false,
+        "emissiveVertexColorChannel": "rgb",
+        "normalMap": null,
+        "normalMapTiling": [
+            1,
+            1
+        ],
+        "normalMapOffset": [
+            0,
+            0
+        ],
+        "normalMapUv": 0,
+        "bumpMapFactor": 0.7,
+        "heightMap": null,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [
+            1,
+            1
+        ],
+        "heightMapOffset": [
+            0,
+            0
+        ],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "alphaToCoverage": false,
+        "opacity": 1,
+        "opacityMap": null,
+        "opacityMapVertexColor": false,
+        "opacityVertexColorChannel": "rgb",
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "opacityMapTiling": [
+            1,
+            1
+        ],
+        "opacityMapOffset": [
+            0,
+            0
+        ],
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0,
+        "sphereMap": null,
+        "cubeMap": null,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+            "center": [
+                0,
+                0,
+                0
+            ],
+            "halfExtents": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "lightMap": null,
+        "lightMapVertexColor": false,
+        "lightVertexColorChannel": "rgb",
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [
+            1,
+            1
+        ],
+        "lightMapOffset": [
+            0,
+            0
+        ],
+        "depthTest": true,
+        "depthWrite": true,
+        "depthBias": 0,
+        "slopeDepthBias": 0,
+        "cull": 1,
+        "blendType": 3,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true,
+        "fresnelFactor": 0,
+        "aoMapVertexColor": false,
+        "diffuseMapVertexColor": false,
+        "emissiveMapVertexColor": false,
+        "specularMapVertexColor": false,
+        "shadowSampleType": 1,
+        "mapping_format": "path"
+    }
+}

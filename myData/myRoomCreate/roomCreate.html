@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会议场景的创建与管理</title>
+</head>
+<body>
+<script src="../UI_tool.js"></script>
+<script src="js/mybackground.js"></script>
+
+<script src="../myMeeting/myConfig.js"></script>
+
+<script src="../myConfig.js"></script>
+<script src="../mongo_tool_js/util.js"></script>
+<script src="../mongo_tool_js/logManager.js"></script>
+<script src="../mongo_tool_js/axios.min.js"></script>
+
+<script src="../mongo_tool_js/myMongoDB.js"></script>
+
+<a href='../myAvatarSelect/avatarSelect.html'><img src="roomCreate/back.png"
+												   style="position:fixed;margin-top:1px;width:70px;height:70px;left:15px;top:10px;"/></a>
+
+<div id="mypanel" style="position:fixed;margin-top:1px;width:150px;height:100px;left:100px;top:50px;">
+	<script>
+        var oDiv = document.getElementById('mypanel');
+        oDiv.style.position = 'fixed';
+        oDiv.style.left = (window.innerWidth / 3.3 - 150) + 'px';
+        oDiv.style.top = (window.innerHeight / 4 - 100) + 'px';
+	</script>
+	<div style="position:absolute;margin-top:1px;width:150px;height:100px;left:0px;top:0px;">
+		<button id="btn0" type="button0" style="font-size:25px;width:180px;height:55px">选择场景</button>
+	</div>
+	<div style="position:absolute;margin-top:1px;width:150px;height:100px;left:210px;top:10px;">
+		<button id="btn1" type="button1" style="font-size:20px;width:180px;height:35px">我创建的房间</button>
+	</div>
+
+	<div style="position:absolute;margin-top:1px;border:5px solid #0ff;width:829px;height:441px;left:0px;top:60px;">
+		<div id="container"></div>
+
+
+	</div>
+
+</div>
+
+
+<div id="mypanel2" style="position:absolute;margin-top:20px;border:5px solid #0ff;width:1027px;height:641px;background: #ffffff;display:none;">
+	<div style="text-align:center;">
+                <font size=8 color="#0ff000"><h1 id="mytext_name"style="font-size:35px">会议</h1></font>	
+	<form action="roomCreate2.html" method="get">
+		<font size=5 color="#5f0000"><input id="room_type"type="hidden" name="room_type" value="001">
+		房间名称：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="myname" type="text" name="myname" value="一个房间" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		参会人数：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="mymember_num" type="text" name="mymember_num" value="1" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		开始时间：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="mybegin_time" type="text" name="mybegin_time" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		结束时间：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="myend_time" type="text" name="myend_time" value="" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		普通参会密码：<input id="mypassword1" type="text" name="mypassword1" value="111111" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		演讲者密码：&nbsp&nbsp&nbsp&nbsp<input id="mypassword2" type="text" name="mypassword2" value="222222" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		管理员密码：&nbsp&nbsp&nbsp&nbsp<input id="mypassword3" type="text" name="mypassword3" value="333333" style="font-size:20px;width:310px;height:30px"/><br/><br/>
+		</font>
+		<button type="button" style="font-size:20px;width:200px;height:40px"onclick=(function(){document.getElementById("mypanel2").style.display="none";})()>取消</button>
+		<input type="submit" value="确定" style="font-size:20px;width:200px;height:40px"onclick=mysubmit()></br>
+	</form>
+</div>
+</div>
+<script>//	//left:350px;top:140px;display:none    margin:50px auto;
+    var oDiv2 = document.getElementById('mypanel2');
+    oDiv2.style.position = 'fixed';
+    oDiv2.style.left = (window.innerWidth / 3.3 - 160) + 'px';
+    oDiv2.style.top = (window.innerHeight / 4 - 120) + 'px';
+</script>
+
+<script src="./js/roomCreate1.js"></script>
+
+</body>
+</html>
